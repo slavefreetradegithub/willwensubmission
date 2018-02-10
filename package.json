@@ -20,6 +20,7 @@
   "dependencies": {
     "abi-decoder": "^1.0.9",
     "express": "^4.16.2",
-    "web3": "^0.20.3"
+    "web3": "^0.20.3",
+    "body-parser": "^1.18.2"
   }
 }
