@@ -1,0 +1,33 @@
+Requirements:
+Install Geth
+Create a 'data' directory
+Create a genesis.json file
+
+1)
+Initialize a local blockchain:
+"geth --datadir ./data init genesis.json"
+
+2) Start the local ethereum node
+* Spaces are important
+* Default port is 30303
+* Prevents other blockchain networks to attatch to this one.
+* give a networkid so others can attach
+"geth --datadir ./data --nodiscover --networkid 1234 console 2>console.log
+
+3) Optional: Attach another terminal to the same node:
+"geth attach ipc:./data/geth.ipc"
+
+4) Optional: Start another ethereum node on the SAME NETWORK
+"geth --datadir ./data2 --port 30304 --nodiscover --networkid 1234 console 2>console.log"
+
+	4a) Make them peers of eachother.
+	Copy the enode #, admin.addPeer("enode://....")
+	admin.peers
+
+5) miner.start(1)
+
+Misc:
+personal.newAccount
+personal.listAccounts
+eth.blockNumber
+admin.nodeInfo

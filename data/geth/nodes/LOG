@@ -1,0 +1,36 @@
+=============== Feb 9, 2018 (EST) ===============
+22:05:18.835641 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:05:18.840466 db@open opening
+22:05:18.843349 version@stat F·[] S·0B[] Sc·[]
+22:05:18.843739 db@janitor F·2 G·0
+22:05:18.843782 db@open done T·3.275169ms
+22:05:33.556549 db@close closing
+22:05:33.556718 db@close done T·176.208µs
+=============== Feb 9, 2018 (EST) ===============
+22:05:47.834459 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:05:47.834904 version@stat F·[] S·0B[] Sc·[]
+22:05:47.834941 db@open opening
+22:05:47.835060 journal@recovery F·1
+22:05:47.837893 journal@recovery recovering @1
+22:05:47.840607 memdb@flush created L0@2 N·25 S·760B "n:\x11..ing,v24":"version,v1"
+22:05:47.843333 version@stat F·[1] S·760B[760B] Sc·[0.25]
+22:05:47.844214 db@janitor F·3 G·0
+22:05:47.844244 db@open done T·9.285655ms
+22:05:55.257975 db@close closing
+22:05:55.258203 db@close done T·223.729µs
+=============== Feb 9, 2018 (EST) ===============
+22:06:04.918140 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:06:04.918506 version@stat F·[1] S·760B[760B] Sc·[0.25]
+22:06:04.918548 db@open opening
+22:06:04.918690 journal@recovery F·1
+22:06:04.922163 journal@recovery recovering @3
+22:06:04.927066 memdb@flush created L0@5 N·12 S·667B "n:\x11..ing,v36":"n:\xa9..ing,v31"
+22:06:04.929981 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+22:06:04.930873 db@janitor F·4 G·0
+22:06:04.930907 db@open done T·12.340525ms
+22:06:36.948855 table@compaction L0·2 -> L1·0 S·1KiB Q·88
+22:06:36.953190 table@build created L1@8 N·7 S·625B "n:\x11..ing,v36":"version,v1"
+22:06:36.953288 version@stat F·[0 1] S·625B[0B 625B] Sc·[0.00 0.00]
+22:06:36.956310 table@compaction committed F-1 S-802B Ke·0 D·30 T·7.397986ms
+22:06:36.956478 table@remove removed @5
+22:06:36.956559 table@remove removed @2
