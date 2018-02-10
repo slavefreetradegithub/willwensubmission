@@ -65,19 +65,19 @@
         <p>Your identity will be kept anonymous but your voice will be heard.</p>
         <form action="/data" method="post"> 
             <div class="form-group">
-                <label for="isPaidTooLow">Are you paid so low that you can’t afford the basic neccessities to survive?</label>
+                <label id="question" for="isPaidTooLow">Are you paid so low that you can’t afford the basic neccessities to survive?</label>
                 <br><input type="radio" name="isPaidTooLow" value="True"> True<br>
                 <input type="radio" name="isPaidTooLow" value="False"> False<br>
             </div>
 
             <div class="form-group">
-                <label for="isDangerInEmergency">If an emergency (fire, earthquake, etc) occurs, would you find it hard to escape from the building?
+                <label id="question" for="isDangerInEmergency">If an emergency (fire, earthquake, etc) occurs, would you find it hard to escape from the building?
                 </label>
                 <input type="radio" name="isDangerInEmergency" value="True"> True<br>
                 <input type="radio" name="isDangerInEmergency" value="False"> False<br>
             </div>
             <div class="form-group">
-            <label for="district">District:</label>
+            <label id="question" for="district">District:</label>
             <input type="text" class="form-control" id="usr" name="district">
             </div>
     <!--        <div class="form-group">

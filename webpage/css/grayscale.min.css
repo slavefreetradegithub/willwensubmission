@@ -3,3 +3,7 @@ body{font-family:Lora,'Helvetica Neue',Helvetica,Arial,sans-serif;position:relat
 #top{
     margin-top: 30px;
 }
+
+#question{
+    font-size: 1.3em;
+}
