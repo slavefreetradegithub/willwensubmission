@@ -7,3 +7,9 @@ body{font-family:Lora,'Helvetica Neue',Helvetica,Arial,sans-serif;position:relat
 #question{
     font-size: 1.3em;
 }
+
+#subtitle{
+    font-size: 0.9em;
+    opacity:0.6;
+    font-style: italic;
+}

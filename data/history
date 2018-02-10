@@ -1,0 +1,13 @@
+miner.setEtherbase(eth.accounts[0])
+miner.start()
+minert.stop()
+miner.stop()
+miner.start()
+miner.stop()
+eth.blockNumber
+miner.start()
+eth.pendingTransactions
+miner.stop()
+eth.blockNumber
+miner.start()
+miner.stop()

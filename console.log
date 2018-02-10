@@ -693,3 +693,1006 @@ INFO [02-10|12:52:40] 🔗 block reached canonical chain          number=158 has
 INFO [02-10|12:52:40] 🔨 mined potential block                  number=163 hash=4fbd8a…5dc822
 INFO [02-10|12:52:40] Mining too far in the future             wait=2s
 INFO [02-10|12:52:42] Commit new mining work                   number=164 txs=0 uncles=0 elapsed=2.001s
+INFO [02-10|13:47:25] Updated mining threads                   threads=0
+INFO [02-10|13:47:25] Transaction pool price threshold updated price=18000000000
+INFO [02-10|13:47:25] Starting mining operation 
+INFO [02-10|13:47:25] Commit new mining work                   number=164 txs=0 uncles=0 elapsed=163.951µs
+INFO [02-10|13:47:26] Successfully sealed new block            number=164 hash=869e16…42795e
+INFO [02-10|13:47:26] 🔗 block reached canonical chain          number=159 hash=106b23…fc6e61
+INFO [02-10|13:47:26] 🔨 mined potential block                  number=164 hash=869e16…42795e
+INFO [02-10|13:47:26] Commit new mining work                   number=165 txs=0 uncles=0 elapsed=426.744µs
+INFO [02-10|13:47:27] Successfully sealed new block            number=165 hash=c8d74c…429222
+INFO [02-10|13:47:27] 🔗 block reached canonical chain          number=160 hash=77c902…1ae7b7
+INFO [02-10|13:47:27] 🔨 mined potential block                  number=165 hash=c8d74c…429222
+INFO [02-10|13:47:27] Commit new mining work                   number=166 txs=0 uncles=0 elapsed=148.199µs
+INFO [02-10|13:47:27] Successfully sealed new block            number=166 hash=b4d761…45db65
+INFO [02-10|13:47:27] 🔗 block reached canonical chain          number=161 hash=920672…febfc9
+INFO [02-10|13:47:27] 🔨 mined potential block                  number=166 hash=b4d761…45db65
+INFO [02-10|13:47:27] Commit new mining work                   number=167 txs=0 uncles=0 elapsed=222.214µs
+INFO [02-10|13:47:27] Successfully sealed new block            number=167 hash=102e88…1c1846
+INFO [02-10|13:47:27] 🔗 block reached canonical chain          number=162 hash=899293…6c19e9
+INFO [02-10|13:47:27] 🔨 mined potential block                  number=167 hash=102e88…1c1846
+INFO [02-10|13:47:27] Mining too far in the future             wait=2s
+INFO [02-10|13:47:29] Commit new mining work                   number=168 txs=0 uncles=0 elapsed=2.005s
+INFO [02-10|13:47:34] Successfully sealed new block            number=168 hash=a5821b…31cb9c
+INFO [02-10|13:47:34] 🔗 block reached canonical chain          number=163 hash=4fbd8a…5dc822
+INFO [02-10|13:47:34] 🔨 mined potential block                  number=168 hash=a5821b…31cb9c
+INFO [02-10|13:47:34] Commit new mining work                   number=169 txs=0 uncles=0 elapsed=200.699µs
+INFO [02-10|13:47:34] Successfully sealed new block            number=169 hash=3a7d19…a0913f
+INFO [02-10|13:47:34] 🔗 block reached canonical chain          number=164 hash=869e16…42795e
+INFO [02-10|13:47:34] 🔨 mined potential block                  number=169 hash=3a7d19…a0913f
+INFO [02-10|13:47:34] Commit new mining work                   number=170 txs=0 uncles=0 elapsed=191.016µs
+INFO [02-10|13:47:35] Successfully sealed new block            number=170 hash=dc0445…9c33db
+INFO [02-10|13:47:35] 🔗 block reached canonical chain          number=165 hash=c8d74c…429222
+INFO [02-10|13:47:35] Commit new mining work                   number=171 txs=0 uncles=0 elapsed=243.819µs
+INFO [02-10|13:47:35] 🔨 mined potential block                  number=170 hash=dc0445…9c33db
+INFO [02-10|13:47:36] Successfully sealed new block            number=171 hash=6eb209…dc4ef2
+INFO [02-10|13:47:36] 🔗 block reached canonical chain          number=166 hash=b4d761…45db65
+INFO [02-10|13:47:36] 🔨 mined potential block                  number=171 hash=6eb209…dc4ef2
+INFO [02-10|13:47:36] Commit new mining work                   number=172 txs=0 uncles=0 elapsed=167.072µs
+INFO [02-10|13:47:36] Submitted contract creation              fullhash=0xfc5eabdc36afce43cf5afab722e3ab9778c8f6691ebc6affdbf9d7f5645d3454 contract=0x8703571fFb2E31079ff85817B197b8bd4B21EA4a
+INFO [02-10|13:47:36] Submitted contract creation              fullhash=0x519147361a25c4a235a52f2ed13aa3c35b7b6dd79fa01f55e0be8202a0d1e1fa contract=0xb872d74189Ea22Bc82C1B237A302FA0bAA809cDB
+INFO [02-10|13:47:36] Successfully sealed new block            number=172 hash=c43fba…2aed0b
+INFO [02-10|13:47:36] Mining too far in the future             wait=2s
+INFO [02-10|13:47:36] 🔗 block reached canonical chain          number=167 hash=102e88…1c1846
+INFO [02-10|13:47:36] 🔨 mined potential block                  number=172 hash=c43fba…2aed0b
+INFO [02-10|13:47:38] Commit new mining work                   number=173 txs=2 uncles=0 elapsed=2.006s
+INFO [02-10|13:47:39] Successfully sealed new block            number=173 hash=72d8d0…f7c375
+INFO [02-10|13:47:39] 🔗 block reached canonical chain          number=168 hash=a5821b…31cb9c
+INFO [02-10|13:47:39] 🔨 mined potential block                  number=173 hash=72d8d0…f7c375
+INFO [02-10|13:47:39] Commit new mining work                   number=174 txs=0 uncles=0 elapsed=176.457µs
+INFO [02-10|13:47:39] Successfully sealed new block            number=174 hash=98ca4b…670566
+INFO [02-10|13:47:39] 🔗 block reached canonical chain          number=169 hash=3a7d19…a0913f
+INFO [02-10|13:47:39] 🔨 mined potential block                  number=174 hash=98ca4b…670566
+INFO [02-10|13:47:39] Commit new mining work                   number=175 txs=0 uncles=0 elapsed=370.167µs
+INFO [02-10|13:47:41] Successfully sealed new block            number=175 hash=5b2c51…8f7367
+INFO [02-10|13:47:41] 🔗 block reached canonical chain          number=170 hash=dc0445…9c33db
+INFO [02-10|13:47:41] 🔨 mined potential block                  number=175 hash=5b2c51…8f7367
+INFO [02-10|13:47:41] Commit new mining work                   number=176 txs=0 uncles=0 elapsed=184.041µs
+INFO [02-10|13:47:42] Successfully sealed new block            number=176 hash=8f6e57…7c8b9a
+INFO [02-10|13:47:42] 🔗 block reached canonical chain          number=171 hash=6eb209…dc4ef2
+INFO [02-10|13:47:42] 🔨 mined potential block                  number=176 hash=8f6e57…7c8b9a
+INFO [02-10|13:47:42] Commit new mining work                   number=177 txs=0 uncles=0 elapsed=247.796µs
+INFO [02-10|13:47:43] Successfully sealed new block            number=177 hash=97f53b…525b03
+INFO [02-10|13:47:43] 🔗 block reached canonical chain          number=172 hash=c43fba…2aed0b
+INFO [02-10|13:47:43] 🔨 mined potential block                  number=177 hash=97f53b…525b03
+INFO [02-10|13:47:43] Commit new mining work                   number=178 txs=0 uncles=0 elapsed=162.447µs
+INFO [02-10|13:47:43] Successfully sealed new block            number=178 hash=0eaebc…af870b
+INFO [02-10|13:47:43] 🔗 block reached canonical chain          number=173 hash=72d8d0…f7c375
+INFO [02-10|13:47:43] 🔨 mined potential block                  number=178 hash=0eaebc…af870b
+INFO [02-10|13:47:43] Commit new mining work                   number=179 txs=0 uncles=0 elapsed=177.848µs
+INFO [02-10|13:47:45] Successfully sealed new block            number=179 hash=20c682…4d6b58
+INFO [02-10|13:47:45] 🔗 block reached canonical chain          number=174 hash=98ca4b…670566
+INFO [02-10|13:47:45] 🔨 mined potential block                  number=179 hash=20c682…4d6b58
+INFO [02-10|13:47:45] Commit new mining work                   number=180 txs=0 uncles=0 elapsed=114.861µs
+INFO [02-10|13:47:46] Successfully sealed new block            number=180 hash=17b86d…9cc894
+INFO [02-10|13:47:46] 🔗 block reached canonical chain          number=175 hash=5b2c51…8f7367
+INFO [02-10|13:47:46] 🔨 mined potential block                  number=180 hash=17b86d…9cc894
+INFO [02-10|13:47:46] Commit new mining work                   number=181 txs=0 uncles=0 elapsed=194.291µs
+INFO [02-10|13:47:46] Successfully sealed new block            number=181 hash=1640d2…b268e8
+INFO [02-10|13:47:46] 🔗 block reached canonical chain          number=176 hash=8f6e57…7c8b9a
+INFO [02-10|13:47:46] 🔨 mined potential block                  number=181 hash=1640d2…b268e8
+INFO [02-10|13:47:46] Commit new mining work                   number=182 txs=0 uncles=0 elapsed=136.46µs
+INFO [02-10|13:47:48] Successfully sealed new block            number=182 hash=b03bf7…93b7dd
+INFO [02-10|13:47:48] 🔗 block reached canonical chain          number=177 hash=97f53b…525b03
+INFO [02-10|13:47:48] 🔨 mined potential block                  number=182 hash=b03bf7…93b7dd
+INFO [02-10|13:47:48] Commit new mining work                   number=183 txs=0 uncles=0 elapsed=168.203µs
+INFO [02-10|13:47:48] Successfully sealed new block            number=183 hash=fc0370…98f8f6
+INFO [02-10|13:47:48] 🔗 block reached canonical chain          number=178 hash=0eaebc…af870b
+INFO [02-10|13:47:48] 🔨 mined potential block                  number=183 hash=fc0370…98f8f6
+INFO [02-10|13:47:48] Commit new mining work                   number=184 txs=0 uncles=0 elapsed=122.208µs
+INFO [02-10|13:47:49] Successfully sealed new block            number=184 hash=94bb61…09457a
+INFO [02-10|13:47:49] 🔗 block reached canonical chain          number=179 hash=20c682…4d6b58
+INFO [02-10|13:47:49] 🔨 mined potential block                  number=184 hash=94bb61…09457a
+INFO [02-10|13:47:49] Commit new mining work                   number=185 txs=0 uncles=0 elapsed=238.688µs
+INFO [02-10|13:47:49] Successfully sealed new block            number=185 hash=31b300…6b4bb0
+INFO [02-10|13:47:49] 🔗 block reached canonical chain          number=180 hash=17b86d…9cc894
+INFO [02-10|13:47:49] 🔨 mined potential block                  number=185 hash=31b300…6b4bb0
+INFO [02-10|13:47:49] Mining too far in the future             wait=2s
+INFO [02-10|13:47:51] Commit new mining work                   number=186 txs=0 uncles=0 elapsed=2.005s
+INFO [02-10|13:47:52] Successfully sealed new block            number=186 hash=0bc5c8…67d74b
+INFO [02-10|13:47:52] 🔗 block reached canonical chain          number=181 hash=1640d2…b268e8
+INFO [02-10|13:47:52] 🔨 mined potential block                  number=186 hash=0bc5c8…67d74b
+INFO [02-10|13:47:52] Commit new mining work                   number=187 txs=0 uncles=0 elapsed=189.079µs
+INFO [02-10|13:47:54] Successfully sealed new block            number=187 hash=76f521…69ff2d
+INFO [02-10|13:47:54] 🔗 block reached canonical chain          number=182 hash=b03bf7…93b7dd
+INFO [02-10|13:47:54] 🔨 mined potential block                  number=187 hash=76f521…69ff2d
+INFO [02-10|13:47:54] Commit new mining work                   number=188 txs=0 uncles=0 elapsed=113.265µs
+INFO [02-10|13:47:56] Successfully sealed new block            number=188 hash=522847…492147
+INFO [02-10|13:47:56] 🔗 block reached canonical chain          number=183 hash=fc0370…98f8f6
+INFO [02-10|13:47:56] 🔨 mined potential block                  number=188 hash=522847…492147
+INFO [02-10|13:47:56] Commit new mining work                   number=189 txs=0 uncles=0 elapsed=175.436µs
+INFO [02-10|13:47:56] Successfully sealed new block            number=189 hash=62fa36…99bc8e
+INFO [02-10|13:47:56] 🔗 block reached canonical chain          number=184 hash=94bb61…09457a
+INFO [02-10|13:47:56] 🔨 mined potential block                  number=189 hash=62fa36…99bc8e
+INFO [02-10|13:47:56] Commit new mining work                   number=190 txs=0 uncles=0 elapsed=134.465µs
+INFO [02-10|13:47:57] Successfully sealed new block            number=190 hash=2230dd…969340
+INFO [02-10|13:47:57] 🔗 block reached canonical chain          number=185 hash=31b300…6b4bb0
+INFO [02-10|13:47:57] 🔨 mined potential block                  number=190 hash=2230dd…969340
+INFO [02-10|13:47:57] Commit new mining work                   number=191 txs=0 uncles=0 elapsed=142.275µs
+INFO [02-10|13:47:59] Successfully sealed new block            number=191 hash=40b4df…2670dd
+INFO [02-10|13:47:59] 🔗 block reached canonical chain          number=186 hash=0bc5c8…67d74b
+INFO [02-10|13:47:59] 🔨 mined potential block                  number=191 hash=40b4df…2670dd
+INFO [02-10|13:47:59] Commit new mining work                   number=192 txs=0 uncles=0 elapsed=157.967µs
+INFO [02-10|13:48:04] Successfully sealed new block            number=192 hash=5b14e8…aa6a9b
+INFO [02-10|13:48:04] 🔗 block reached canonical chain          number=187 hash=76f521…69ff2d
+INFO [02-10|13:48:04] 🔨 mined potential block                  number=192 hash=5b14e8…aa6a9b
+INFO [02-10|13:48:04] Commit new mining work                   number=193 txs=0 uncles=0 elapsed=127.463µs
+INFO [02-10|13:48:06] Successfully sealed new block            number=193 hash=6a6601…59845c
+INFO [02-10|13:48:06] 🔗 block reached canonical chain          number=188 hash=522847…492147
+INFO [02-10|13:48:06] 🔨 mined potential block                  number=193 hash=6a6601…59845c
+INFO [02-10|13:48:06] Commit new mining work                   number=194 txs=0 uncles=0 elapsed=175.176µs
+INFO [02-10|13:48:06] Successfully sealed new block            number=194 hash=f87ad1…3e4ae3
+INFO [02-10|13:48:06] 🔗 block reached canonical chain          number=189 hash=62fa36…99bc8e
+INFO [02-10|13:48:06] 🔨 mined potential block                  number=194 hash=f87ad1…3e4ae3
+INFO [02-10|13:48:06] Commit new mining work                   number=195 txs=0 uncles=0 elapsed=151.366µs
+INFO [02-10|13:48:08] Successfully sealed new block            number=195 hash=ae9672…42c7be
+INFO [02-10|13:48:08] 🔗 block reached canonical chain          number=190 hash=2230dd…969340
+INFO [02-10|13:48:08] 🔨 mined potential block                  number=195 hash=ae9672…42c7be
+INFO [02-10|13:48:08] Commit new mining work                   number=196 txs=0 uncles=0 elapsed=212.202µs
+INFO [02-10|13:48:08] Successfully sealed new block            number=196 hash=ff5e9b…2223e8
+INFO [02-10|13:48:08] 🔗 block reached canonical chain          number=191 hash=40b4df…2670dd
+INFO [02-10|13:48:08] 🔨 mined potential block                  number=196 hash=ff5e9b…2223e8
+INFO [02-10|13:48:08] Commit new mining work                   number=197 txs=0 uncles=0 elapsed=163.234µs
+INFO [02-10|13:48:08] Successfully sealed new block            number=197 hash=c7bc58…e35687
+INFO [02-10|13:48:08] 🔗 block reached canonical chain          number=192 hash=5b14e8…aa6a9b
+INFO [02-10|13:48:08] 🔨 mined potential block                  number=197 hash=c7bc58…e35687
+INFO [02-10|13:48:08] Mining too far in the future             wait=2s
+INFO [02-10|13:48:10] Commit new mining work                   number=198 txs=0 uncles=0 elapsed=2.003s
+INFO [02-10|13:48:11] Successfully sealed new block            number=198 hash=263df7…da0264
+INFO [02-10|13:48:11] 🔗 block reached canonical chain          number=193 hash=6a6601…59845c
+INFO [02-10|13:48:11] 🔨 mined potential block                  number=198 hash=263df7…da0264
+INFO [02-10|13:48:11] Commit new mining work                   number=199 txs=0 uncles=0 elapsed=129.407µs
+INFO [02-10|13:48:14] Successfully sealed new block            number=199 hash=b12137…e5d7a2
+INFO [02-10|13:48:14] 🔗 block reached canonical chain          number=194 hash=f87ad1…3e4ae3
+INFO [02-10|13:48:14] 🔨 mined potential block                  number=199 hash=b12137…e5d7a2
+INFO [02-10|13:48:14] Commit new mining work                   number=200 txs=0 uncles=0 elapsed=130.358µs
+INFO [02-10|13:48:15] Successfully sealed new block            number=200 hash=6a1eaf…e9750c
+INFO [02-10|13:48:15] 🔗 block reached canonical chain          number=195 hash=ae9672…42c7be
+INFO [02-10|13:48:15] 🔨 mined potential block                  number=200 hash=6a1eaf…e9750c
+INFO [02-10|13:48:15] Commit new mining work                   number=201 txs=0 uncles=0 elapsed=144.477µs
+INFO [02-10|13:48:16] Successfully sealed new block            number=201 hash=3064c0…c4ee1d
+INFO [02-10|13:48:16] 🔗 block reached canonical chain          number=196 hash=ff5e9b…2223e8
+INFO [02-10|13:48:16] 🔨 mined potential block                  number=201 hash=3064c0…c4ee1d
+INFO [02-10|13:48:16] Commit new mining work                   number=202 txs=0 uncles=0 elapsed=209.142µs
+INFO [02-10|13:48:16] Successfully sealed new block            number=202 hash=7fdf99…be1d2c
+INFO [02-10|13:48:16] 🔗 block reached canonical chain          number=197 hash=c7bc58…e35687
+INFO [02-10|13:48:16] 🔨 mined potential block                  number=202 hash=7fdf99…be1d2c
+INFO [02-10|13:48:16] Commit new mining work                   number=203 txs=0 uncles=0 elapsed=181.418µs
+INFO [02-10|13:48:19] Successfully sealed new block            number=203 hash=15e184…e6c02b
+INFO [02-10|13:48:19] 🔗 block reached canonical chain          number=198 hash=263df7…da0264
+INFO [02-10|13:48:19] 🔨 mined potential block                  number=203 hash=15e184…e6c02b
+INFO [02-10|13:48:19] Commit new mining work                   number=204 txs=0 uncles=0 elapsed=138.589µs
+INFO [02-10|13:48:19] Successfully sealed new block            number=204 hash=354138…6bf0c6
+INFO [02-10|13:48:19] 🔗 block reached canonical chain          number=199 hash=b12137…e5d7a2
+INFO [02-10|13:48:19] 🔨 mined potential block                  number=204 hash=354138…6bf0c6
+INFO [02-10|13:48:19] Commit new mining work                   number=205 txs=0 uncles=0 elapsed=155.342µs
+INFO [02-10|13:48:19] Successfully sealed new block            number=205 hash=834844…490fe8
+INFO [02-10|13:48:19] 🔗 block reached canonical chain          number=200 hash=6a1eaf…e9750c
+INFO [02-10|13:48:19] 🔨 mined potential block                  number=205 hash=834844…490fe8
+INFO [02-10|13:48:19] Mining too far in the future             wait=2s
+INFO [02-10|13:48:21] Commit new mining work                   number=206 txs=0 uncles=0 elapsed=2.003s
+INFO [02-10|13:48:22] Successfully sealed new block            number=206 hash=297735…ab3745
+INFO [02-10|13:48:22] 🔗 block reached canonical chain          number=201 hash=3064c0…c4ee1d
+INFO [02-10|13:48:22] 🔨 mined potential block                  number=206 hash=297735…ab3745
+INFO [02-10|13:48:22] Commit new mining work                   number=207 txs=0 uncles=0 elapsed=117.135µs
+INFO [02-10|13:48:22] Successfully sealed new block            number=207 hash=a494bc…2a9213
+INFO [02-10|13:48:22] 🔗 block reached canonical chain          number=202 hash=7fdf99…be1d2c
+INFO [02-10|13:48:22] 🔨 mined potential block                  number=207 hash=a494bc…2a9213
+INFO [02-10|13:48:22] Commit new mining work                   number=208 txs=0 uncles=0 elapsed=144.382µs
+INFO [02-10|13:48:23] Successfully sealed new block            number=208 hash=5faa49…5fbb6f
+INFO [02-10|13:48:23] 🔗 block reached canonical chain          number=203 hash=15e184…e6c02b
+INFO [02-10|13:48:23] 🔨 mined potential block                  number=208 hash=5faa49…5fbb6f
+INFO [02-10|13:48:23] Commit new mining work                   number=209 txs=0 uncles=0 elapsed=212.827µs
+INFO [02-10|13:48:24] Successfully sealed new block            number=209 hash=2d5695…5c9e95
+INFO [02-10|13:48:24] 🔗 block reached canonical chain          number=204 hash=354138…6bf0c6
+INFO [02-10|13:48:24] 🔨 mined potential block                  number=209 hash=2d5695…5c9e95
+INFO [02-10|13:48:24] Commit new mining work                   number=210 txs=0 uncles=0 elapsed=185.181µs
+INFO [02-10|13:48:24] Successfully sealed new block            number=210 hash=73f6f8…98439b
+INFO [02-10|13:48:24] 🔗 block reached canonical chain          number=205 hash=834844…490fe8
+INFO [02-10|13:48:24] 🔨 mined potential block                  number=210 hash=73f6f8…98439b
+INFO [02-10|13:48:24] Mining too far in the future             wait=2s
+INFO [02-10|13:48:26] Commit new mining work                   number=211 txs=0 uncles=0 elapsed=2.004s
+INFO [02-10|13:48:26] Successfully sealed new block            number=211 hash=a47505…8f5637
+INFO [02-10|13:48:26] 🔗 block reached canonical chain          number=206 hash=297735…ab3745
+INFO [02-10|13:48:26] 🔨 mined potential block                  number=211 hash=a47505…8f5637
+INFO [02-10|13:48:26] Commit new mining work                   number=212 txs=0 uncles=0 elapsed=140.26µs
+INFO [02-10|13:48:32] Successfully sealed new block            number=212 hash=ba476c…f98709
+INFO [02-10|13:48:32] 🔗 block reached canonical chain          number=207 hash=a494bc…2a9213
+INFO [02-10|13:48:32] 🔨 mined potential block                  number=212 hash=ba476c…f98709
+INFO [02-10|13:48:32] Commit new mining work                   number=213 txs=0 uncles=0 elapsed=396.49µs
+INFO [02-10|13:48:33] Successfully sealed new block            number=213 hash=616d30…8eff96
+INFO [02-10|13:48:33] 🔗 block reached canonical chain          number=208 hash=5faa49…5fbb6f
+INFO [02-10|13:48:33] 🔨 mined potential block                  number=213 hash=616d30…8eff96
+INFO [02-10|13:48:33] Commit new mining work                   number=214 txs=0 uncles=0 elapsed=199.209µs
+INFO [02-10|13:48:35] Successfully sealed new block            number=214 hash=dc24b2…26d470
+INFO [02-10|13:48:35] 🔗 block reached canonical chain          number=209 hash=2d5695…5c9e95
+INFO [02-10|13:48:35] 🔨 mined potential block                  number=214 hash=dc24b2…26d470
+INFO [02-10|13:48:35] Commit new mining work                   number=215 txs=0 uncles=0 elapsed=221.708µs
+INFO [02-10|13:48:36] Successfully sealed new block            number=215 hash=1db4a7…37499e
+INFO [02-10|13:48:36] 🔗 block reached canonical chain          number=210 hash=73f6f8…98439b
+INFO [02-10|13:48:36] 🔨 mined potential block                  number=215 hash=1db4a7…37499e
+INFO [02-10|13:48:36] Commit new mining work                   number=216 txs=0 uncles=0 elapsed=1.709ms
+INFO [02-10|13:48:38] Successfully sealed new block            number=216 hash=11eb2e…d108c3
+INFO [02-10|13:48:38] 🔗 block reached canonical chain          number=211 hash=a47505…8f5637
+INFO [02-10|13:48:38] 🔨 mined potential block                  number=216 hash=11eb2e…d108c3
+INFO [02-10|13:48:38] Commit new mining work                   number=217 txs=0 uncles=0 elapsed=271.893µs
+INFO [02-10|13:48:45] Successfully sealed new block            number=217 hash=713b0a…f9c0d8
+INFO [02-10|13:48:45] 🔗 block reached canonical chain          number=212 hash=ba476c…f98709
+INFO [02-10|13:48:45] 🔨 mined potential block                  number=217 hash=713b0a…f9c0d8
+INFO [02-10|13:48:45] Commit new mining work                   number=218 txs=0 uncles=0 elapsed=220.185µs
+INFO [02-10|13:48:46] Successfully sealed new block            number=218 hash=b9aee9…33dbce
+INFO [02-10|13:48:46] 🔗 block reached canonical chain          number=213 hash=616d30…8eff96
+INFO [02-10|13:48:46] 🔨 mined potential block                  number=218 hash=b9aee9…33dbce
+INFO [02-10|13:48:46] Commit new mining work                   number=219 txs=0 uncles=0 elapsed=404.253µs
+INFO [02-10|13:48:46] Successfully sealed new block            number=219 hash=99e127…8d2723
+INFO [02-10|13:48:46] 🔗 block reached canonical chain          number=214 hash=dc24b2…26d470
+INFO [02-10|13:48:46] 🔨 mined potential block                  number=219 hash=99e127…8d2723
+INFO [02-10|13:48:46] Commit new mining work                   number=220 txs=0 uncles=0 elapsed=221.789µs
+INFO [02-10|13:48:52] Successfully sealed new block            number=220 hash=375408…449e1e
+INFO [02-10|13:48:52] 🔗 block reached canonical chain          number=215 hash=1db4a7…37499e
+INFO [02-10|13:48:52] 🔨 mined potential block                  number=220 hash=375408…449e1e
+INFO [02-10|13:48:52] Commit new mining work                   number=221 txs=0 uncles=0 elapsed=202.579µs
+INFO [02-10|13:48:54] Successfully sealed new block            number=221 hash=f820bd…20ddec
+INFO [02-10|13:48:54] 🔗 block reached canonical chain          number=216 hash=11eb2e…d108c3
+INFO [02-10|13:48:54] 🔨 mined potential block                  number=221 hash=f820bd…20ddec
+INFO [02-10|13:48:54] Commit new mining work                   number=222 txs=0 uncles=0 elapsed=157.197µs
+INFO [02-10|13:48:57] Successfully sealed new block            number=222 hash=e0589d…efb29d
+INFO [02-10|13:48:57] 🔗 block reached canonical chain          number=217 hash=713b0a…f9c0d8
+INFO [02-10|13:48:57] 🔨 mined potential block                  number=222 hash=e0589d…efb29d
+INFO [02-10|13:48:57] Commit new mining work                   number=223 txs=0 uncles=0 elapsed=421.096µs
+INFO [02-10|13:49:02] Successfully sealed new block            number=223 hash=e7be67…924122
+INFO [02-10|13:49:02] 🔗 block reached canonical chain          number=218 hash=b9aee9…33dbce
+INFO [02-10|13:49:02] 🔨 mined potential block                  number=223 hash=e7be67…924122
+INFO [02-10|13:49:02] Commit new mining work                   number=224 txs=0 uncles=0 elapsed=222.479µs
+INFO [02-10|13:49:05] Successfully sealed new block            number=224 hash=b094d2…b305bc
+INFO [02-10|13:49:05] 🔗 block reached canonical chain          number=219 hash=99e127…8d2723
+INFO [02-10|13:49:05] 🔨 mined potential block                  number=224 hash=b094d2…b305bc
+INFO [02-10|13:49:05] Commit new mining work                   number=225 txs=0 uncles=0 elapsed=158.477µs
+INFO [02-10|13:49:08] Successfully sealed new block            number=225 hash=ab3b9e…36a579
+INFO [02-10|13:49:08] 🔗 block reached canonical chain          number=220 hash=375408…449e1e
+INFO [02-10|13:49:08] 🔨 mined potential block                  number=225 hash=ab3b9e…36a579
+INFO [02-10|13:49:08] Commit new mining work                   number=226 txs=0 uncles=0 elapsed=193.35µs
+INFO [02-10|13:49:09] Successfully sealed new block            number=226 hash=8814aa…736357
+INFO [02-10|13:49:09] 🔗 block reached canonical chain          number=221 hash=f820bd…20ddec
+INFO [02-10|13:49:09] 🔨 mined potential block                  number=226 hash=8814aa…736357
+INFO [02-10|13:49:09] Commit new mining work                   number=227 txs=0 uncles=0 elapsed=195.99µs
+INFO [02-10|13:49:10] Successfully sealed new block            number=227 hash=02c87f…1cfc22
+INFO [02-10|13:49:10] 🔗 block reached canonical chain          number=222 hash=e0589d…efb29d
+INFO [02-10|13:49:10] 🔨 mined potential block                  number=227 hash=02c87f…1cfc22
+INFO [02-10|13:49:10] Commit new mining work                   number=228 txs=0 uncles=0 elapsed=191.91µs
+INFO [02-10|13:49:13] Successfully sealed new block            number=228 hash=fc8429…5667ce
+INFO [02-10|13:49:13] 🔗 block reached canonical chain          number=223 hash=e7be67…924122
+INFO [02-10|13:49:13] 🔨 mined potential block                  number=228 hash=fc8429…5667ce
+INFO [02-10|13:49:13] Commit new mining work                   number=229 txs=0 uncles=0 elapsed=178.995µs
+INFO [02-10|13:49:14] Successfully sealed new block            number=229 hash=fe71a0…6d319f
+INFO [02-10|13:49:14] 🔗 block reached canonical chain          number=224 hash=b094d2…b305bc
+INFO [02-10|13:49:14] 🔨 mined potential block                  number=229 hash=fe71a0…6d319f
+INFO [02-10|13:49:14] Commit new mining work                   number=230 txs=0 uncles=0 elapsed=312.931µs
+INFO [02-10|13:49:15] Successfully sealed new block            number=230 hash=7cc6cc…889e58
+INFO [02-10|13:49:15] 🔗 block reached canonical chain          number=225 hash=ab3b9e…36a579
+INFO [02-10|13:49:15] 🔨 mined potential block                  number=230 hash=7cc6cc…889e58
+INFO [02-10|13:49:15] Commit new mining work                   number=231 txs=0 uncles=0 elapsed=111.493µs
+INFO [02-10|13:49:16] Successfully sealed new block            number=231 hash=eec606…2a0014
+INFO [02-10|13:49:16] 🔗 block reached canonical chain          number=226 hash=8814aa…736357
+INFO [02-10|13:49:16] 🔨 mined potential block                  number=231 hash=eec606…2a0014
+INFO [02-10|13:49:16] Commit new mining work                   number=232 txs=0 uncles=0 elapsed=128.409µs
+INFO [02-10|13:49:16] Successfully sealed new block            number=232 hash=398256…dc391b
+INFO [02-10|13:49:16] 🔗 block reached canonical chain          number=227 hash=02c87f…1cfc22
+INFO [02-10|13:49:16] 🔨 mined potential block                  number=232 hash=398256…dc391b
+INFO [02-10|13:49:16] Commit new mining work                   number=233 txs=0 uncles=0 elapsed=168.207µs
+INFO [02-10|13:49:17] Successfully sealed new block            number=233 hash=c95947…8e489c
+INFO [02-10|13:49:17] 🔗 block reached canonical chain          number=228 hash=fc8429…5667ce
+INFO [02-10|13:49:17] 🔨 mined potential block                  number=233 hash=c95947…8e489c
+INFO [02-10|13:49:17] Commit new mining work                   number=234 txs=0 uncles=0 elapsed=197.086µs
+INFO [02-10|13:49:19] Successfully sealed new block            number=234 hash=cc7f7d…787e2f
+INFO [02-10|13:49:19] 🔗 block reached canonical chain          number=229 hash=fe71a0…6d319f
+INFO [02-10|13:49:19] 🔨 mined potential block                  number=234 hash=cc7f7d…787e2f
+INFO [02-10|13:49:19] Commit new mining work                   number=235 txs=0 uncles=0 elapsed=217.752µs
+INFO [02-10|13:49:21] Successfully sealed new block            number=235 hash=ebbcb4…aad4b1
+INFO [02-10|13:49:21] 🔗 block reached canonical chain          number=230 hash=7cc6cc…889e58
+INFO [02-10|13:49:21] 🔨 mined potential block                  number=235 hash=ebbcb4…aad4b1
+INFO [02-10|13:49:21] Commit new mining work                   number=236 txs=0 uncles=0 elapsed=329.639µs
+INFO [02-10|13:49:21] Successfully sealed new block            number=236 hash=4173e2…388a3c
+INFO [02-10|13:49:21] 🔗 block reached canonical chain          number=231 hash=eec606…2a0014
+INFO [02-10|13:49:21] 🔨 mined potential block                  number=236 hash=4173e2…388a3c
+INFO [02-10|13:49:21] Commit new mining work                   number=237 txs=0 uncles=0 elapsed=182.868µs
+INFO [02-10|13:49:21] Successfully sealed new block            number=237 hash=a3a918…572c95
+INFO [02-10|13:49:21] 🔗 block reached canonical chain          number=232 hash=398256…dc391b
+INFO [02-10|13:49:21] 🔨 mined potential block                  number=237 hash=a3a918…572c95
+INFO [02-10|13:49:21] Mining too far in the future             wait=2s
+INFO [02-10|13:49:23] Commit new mining work                   number=238 txs=0 uncles=0 elapsed=2.001s
+INFO [02-10|13:49:24] Successfully sealed new block            number=238 hash=2f7f86…ddc136
+INFO [02-10|13:49:24] 🔗 block reached canonical chain          number=233 hash=c95947…8e489c
+INFO [02-10|13:49:24] 🔨 mined potential block                  number=238 hash=2f7f86…ddc136
+INFO [02-10|13:49:24] Commit new mining work                   number=239 txs=0 uncles=0 elapsed=259.936µs
+INFO [02-10|13:49:24] Successfully sealed new block            number=239 hash=070425…e755a1
+INFO [02-10|13:49:24] 🔗 block reached canonical chain          number=234 hash=cc7f7d…787e2f
+INFO [02-10|13:49:24] 🔨 mined potential block                  number=239 hash=070425…e755a1
+INFO [02-10|13:49:24] Commit new mining work                   number=240 txs=0 uncles=0 elapsed=117.974µs
+INFO [02-10|13:49:25] Successfully sealed new block            number=240 hash=fc1223…2fbc93
+INFO [02-10|13:49:25] 🔗 block reached canonical chain          number=235 hash=ebbcb4…aad4b1
+INFO [02-10|13:49:25] 🔨 mined potential block                  number=240 hash=fc1223…2fbc93
+INFO [02-10|13:49:25] Commit new mining work                   number=241 txs=0 uncles=0 elapsed=158.084µs
+INFO [02-10|13:49:25] Successfully sealed new block            number=241 hash=553590…62e48d
+INFO [02-10|13:49:25] 🔗 block reached canonical chain          number=236 hash=4173e2…388a3c
+INFO [02-10|13:49:25] 🔨 mined potential block                  number=241 hash=553590…62e48d
+INFO [02-10|13:49:25] Mining too far in the future             wait=2s
+INFO [02-10|13:49:27] Commit new mining work                   number=242 txs=0 uncles=0 elapsed=2.004s
+INFO [02-10|13:49:28] Successfully sealed new block            number=242 hash=5b46aa…cafb23
+INFO [02-10|13:49:28] 🔗 block reached canonical chain          number=237 hash=a3a918…572c95
+INFO [02-10|13:49:28] 🔨 mined potential block                  number=242 hash=5b46aa…cafb23
+INFO [02-10|13:49:28] Commit new mining work                   number=243 txs=0 uncles=0 elapsed=348.959µs
+INFO [02-10|13:49:29] Successfully sealed new block            number=243 hash=f32f23…8b83f1
+INFO [02-10|13:49:29] 🔗 block reached canonical chain          number=238 hash=2f7f86…ddc136
+INFO [02-10|13:49:29] 🔨 mined potential block                  number=243 hash=f32f23…8b83f1
+INFO [02-10|13:49:29] Commit new mining work                   number=244 txs=0 uncles=0 elapsed=326.842µs
+INFO [02-10|13:49:30] Successfully sealed new block            number=244 hash=20bea2…535645
+INFO [02-10|13:49:30] 🔗 block reached canonical chain          number=239 hash=070425…e755a1
+INFO [02-10|13:49:30] 🔨 mined potential block                  number=244 hash=20bea2…535645
+INFO [02-10|13:49:30] Commit new mining work                   number=245 txs=0 uncles=0 elapsed=151.983µs
+INFO [02-10|13:49:30] Successfully sealed new block            number=245 hash=be8f8c…b580e1
+INFO [02-10|13:49:30] 🔗 block reached canonical chain          number=240 hash=fc1223…2fbc93
+INFO [02-10|13:49:30] 🔨 mined potential block                  number=245 hash=be8f8c…b580e1
+INFO [02-10|13:49:30] Commit new mining work                   number=246 txs=0 uncles=0 elapsed=134.71µs
+INFO [02-10|13:49:31] Successfully sealed new block            number=246 hash=03fdb4…5a2f4a
+INFO [02-10|13:49:31] 🔗 block reached canonical chain          number=241 hash=553590…62e48d
+INFO [02-10|13:49:31] 🔨 mined potential block                  number=246 hash=03fdb4…5a2f4a
+INFO [02-10|13:49:31] Commit new mining work                   number=247 txs=0 uncles=0 elapsed=111.995µs
+INFO [02-10|13:49:31] Successfully sealed new block            number=247 hash=44f001…a3aaab
+INFO [02-10|13:49:31] 🔗 block reached canonical chain          number=242 hash=5b46aa…cafb23
+INFO [02-10|13:49:31] 🔨 mined potential block                  number=247 hash=44f001…a3aaab
+INFO [02-10|13:49:31] Mining too far in the future             wait=2s
+INFO [02-10|13:49:33] Commit new mining work                   number=248 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:49:35] Successfully sealed new block            number=248 hash=9405d8…d172c6
+INFO [02-10|13:49:35] 🔗 block reached canonical chain          number=243 hash=f32f23…8b83f1
+INFO [02-10|13:49:35] 🔨 mined potential block                  number=248 hash=9405d8…d172c6
+INFO [02-10|13:49:35] Commit new mining work                   number=249 txs=0 uncles=0 elapsed=170.931µs
+INFO [02-10|13:49:36] Successfully sealed new block            number=249 hash=7a2721…e55de1
+INFO [02-10|13:49:36] 🔗 block reached canonical chain          number=244 hash=20bea2…535645
+INFO [02-10|13:49:36] 🔨 mined potential block                  number=249 hash=7a2721…e55de1
+INFO [02-10|13:49:36] Commit new mining work                   number=250 txs=0 uncles=0 elapsed=116.419µs
+INFO [02-10|13:49:36] Successfully sealed new block            number=250 hash=7819ee…082bd8
+INFO [02-10|13:49:36] 🔗 block reached canonical chain          number=245 hash=be8f8c…b580e1
+INFO [02-10|13:49:36] 🔨 mined potential block                  number=250 hash=7819ee…082bd8
+INFO [02-10|13:49:36] Commit new mining work                   number=251 txs=0 uncles=0 elapsed=160.567µs
+INFO [02-10|13:49:36] Successfully sealed new block            number=251 hash=c71228…22d184
+INFO [02-10|13:49:36] 🔗 block reached canonical chain          number=246 hash=03fdb4…5a2f4a
+INFO [02-10|13:49:36] 🔨 mined potential block                  number=251 hash=c71228…22d184
+INFO [02-10|13:49:36] Mining too far in the future             wait=2s
+INFO [02-10|13:49:38] Commit new mining work                   number=252 txs=0 uncles=0 elapsed=2.003s
+INFO [02-10|13:49:38] Successfully sealed new block            number=252 hash=beec99…c65d47
+INFO [02-10|13:49:38] 🔗 block reached canonical chain          number=247 hash=44f001…a3aaab
+INFO [02-10|13:49:38] 🔨 mined potential block                  number=252 hash=beec99…c65d47
+INFO [02-10|13:49:38] Commit new mining work                   number=253 txs=0 uncles=0 elapsed=157.483µs
+INFO [02-10|13:49:38] Successfully sealed new block            number=253 hash=ce206d…2085b2
+INFO [02-10|13:49:38] 🔗 block reached canonical chain          number=248 hash=9405d8…d172c6
+INFO [02-10|13:49:38] 🔨 mined potential block                  number=253 hash=ce206d…2085b2
+INFO [02-10|13:49:38] Mining too far in the future             wait=2s
+INFO [02-10|13:49:40] Commit new mining work                   number=254 txs=0 uncles=0 elapsed=2.001s
+INFO [02-10|13:49:41] Successfully sealed new block            number=254 hash=e898b6…90f893
+INFO [02-10|13:49:41] 🔗 block reached canonical chain          number=249 hash=7a2721…e55de1
+INFO [02-10|13:49:41] 🔨 mined potential block                  number=254 hash=e898b6…90f893
+INFO [02-10|13:49:41] Commit new mining work                   number=255 txs=0 uncles=0 elapsed=125.916µs
+INFO [02-10|13:49:41] Successfully sealed new block            number=255 hash=8e66bb…24bc5c
+INFO [02-10|13:49:41] 🔗 block reached canonical chain          number=250 hash=7819ee…082bd8
+INFO [02-10|13:49:41] 🔨 mined potential block                  number=255 hash=8e66bb…24bc5c
+INFO [02-10|13:49:41] Commit new mining work                   number=256 txs=0 uncles=0 elapsed=159.183µs
+INFO [02-10|13:49:42] Successfully sealed new block            number=256 hash=8942c8…fa7c1d
+INFO [02-10|13:49:42] 🔗 block reached canonical chain          number=251 hash=c71228…22d184
+INFO [02-10|13:49:42] 🔨 mined potential block                  number=256 hash=8942c8…fa7c1d
+INFO [02-10|13:49:42] Commit new mining work                   number=257 txs=0 uncles=0 elapsed=202.936µs
+INFO [02-10|13:49:43] Successfully sealed new block            number=257 hash=203f2d…4c805a
+INFO [02-10|13:49:43] 🔗 block reached canonical chain          number=252 hash=beec99…c65d47
+INFO [02-10|13:49:43] 🔨 mined potential block                  number=257 hash=203f2d…4c805a
+INFO [02-10|13:49:43] Commit new mining work                   number=258 txs=0 uncles=0 elapsed=169.978µs
+INFO [02-10|13:49:43] Successfully sealed new block            number=258 hash=cff860…b56602
+INFO [02-10|13:49:43] 🔗 block reached canonical chain          number=253 hash=ce206d…2085b2
+INFO [02-10|13:49:43] 🔨 mined potential block                  number=258 hash=cff860…b56602
+INFO [02-10|13:49:43] Mining too far in the future             wait=2s
+INFO [02-10|13:49:45] Commit new mining work                   number=259 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:49:45] Successfully sealed new block            number=259 hash=95bb3b…119f0a
+INFO [02-10|13:49:45] 🔗 block reached canonical chain          number=254 hash=e898b6…90f893
+INFO [02-10|13:49:45] 🔨 mined potential block                  number=259 hash=95bb3b…119f0a
+INFO [02-10|13:49:45] Commit new mining work                   number=260 txs=0 uncles=0 elapsed=152.479µs
+INFO [02-10|13:49:46] Successfully sealed new block            number=260 hash=0bedc8…8fb49e
+INFO [02-10|13:49:46] 🔗 block reached canonical chain          number=255 hash=8e66bb…24bc5c
+INFO [02-10|13:49:46] 🔨 mined potential block                  number=260 hash=0bedc8…8fb49e
+INFO [02-10|13:49:46] Commit new mining work                   number=261 txs=0 uncles=0 elapsed=205.743µs
+INFO [02-10|13:49:47] Successfully sealed new block            number=261 hash=756bc5…6a3d0e
+INFO [02-10|13:49:47] 🔗 block reached canonical chain          number=256 hash=8942c8…fa7c1d
+INFO [02-10|13:49:47] 🔨 mined potential block                  number=261 hash=756bc5…6a3d0e
+INFO [02-10|13:49:47] Commit new mining work                   number=262 txs=0 uncles=0 elapsed=140.598µs
+INFO [02-10|13:49:48] Successfully sealed new block            number=262 hash=359aff…b9b2f4
+INFO [02-10|13:49:48] 🔗 block reached canonical chain          number=257 hash=203f2d…4c805a
+INFO [02-10|13:49:48] 🔨 mined potential block                  number=262 hash=359aff…b9b2f4
+INFO [02-10|13:49:48] Commit new mining work                   number=263 txs=0 uncles=0 elapsed=200.118µs
+INFO [02-10|13:49:48] Successfully sealed new block            number=263 hash=e35079…ba0929
+INFO [02-10|13:49:48] 🔗 block reached canonical chain          number=258 hash=cff860…b56602
+INFO [02-10|13:49:48] 🔨 mined potential block                  number=263 hash=e35079…ba0929
+INFO [02-10|13:49:48] Mining too far in the future             wait=2s
+INFO [02-10|13:49:50] Commit new mining work                   number=264 txs=0 uncles=0 elapsed=2.005s
+INFO [02-10|13:49:51] Successfully sealed new block            number=264 hash=ff6807…d1c0a5
+INFO [02-10|13:49:51] 🔗 block reached canonical chain          number=259 hash=95bb3b…119f0a
+INFO [02-10|13:49:51] 🔨 mined potential block                  number=264 hash=ff6807…d1c0a5
+INFO [02-10|13:49:51] Commit new mining work                   number=265 txs=0 uncles=0 elapsed=165.13µs
+INFO [02-10|13:49:51] Successfully sealed new block            number=265 hash=494573…1176cd
+INFO [02-10|13:49:51] 🔗 block reached canonical chain          number=260 hash=0bedc8…8fb49e
+INFO [02-10|13:49:51] 🔨 mined potential block                  number=265 hash=494573…1176cd
+INFO [02-10|13:49:51] Commit new mining work                   number=266 txs=0 uncles=0 elapsed=118.805µs
+INFO [02-10|13:49:53] Successfully sealed new block            number=266 hash=1f0d81…71e29b
+INFO [02-10|13:49:53] 🔗 block reached canonical chain          number=261 hash=756bc5…6a3d0e
+INFO [02-10|13:49:53] 🔨 mined potential block                  number=266 hash=1f0d81…71e29b
+INFO [02-10|13:49:53] Commit new mining work                   number=267 txs=0 uncles=0 elapsed=142.349µs
+INFO [02-10|13:49:54] Successfully sealed new block            number=267 hash=ebfbdd…2daabe
+INFO [02-10|13:49:54] 🔗 block reached canonical chain          number=262 hash=359aff…b9b2f4
+INFO [02-10|13:49:54] 🔨 mined potential block                  number=267 hash=ebfbdd…2daabe
+INFO [02-10|13:49:54] Commit new mining work                   number=268 txs=0 uncles=0 elapsed=193.815µs
+INFO [02-10|13:49:55] Successfully sealed new block            number=268 hash=78c073…c84ef1
+INFO [02-10|13:49:55] 🔗 block reached canonical chain          number=263 hash=e35079…ba0929
+INFO [02-10|13:49:55] 🔨 mined potential block                  number=268 hash=78c073…c84ef1
+INFO [02-10|13:49:55] Commit new mining work                   number=269 txs=0 uncles=0 elapsed=172.597µs
+INFO [02-10|13:49:56] Successfully sealed new block            number=269 hash=0db33a…36cf80
+INFO [02-10|13:49:56] 🔗 block reached canonical chain          number=264 hash=ff6807…d1c0a5
+INFO [02-10|13:49:56] 🔨 mined potential block                  number=269 hash=0db33a…36cf80
+INFO [02-10|13:49:56] Commit new mining work                   number=270 txs=0 uncles=0 elapsed=136.316µs
+INFO [02-10|13:49:57] Successfully sealed new block            number=270 hash=9bd1a1…4f6ef5
+INFO [02-10|13:49:57] 🔗 block reached canonical chain          number=265 hash=494573…1176cd
+INFO [02-10|13:49:57] 🔨 mined potential block                  number=270 hash=9bd1a1…4f6ef5
+INFO [02-10|13:49:57] Commit new mining work                   number=271 txs=0 uncles=0 elapsed=111.733µs
+INFO [02-10|13:49:58] Successfully sealed new block            number=271 hash=ea9179…eb53b5
+INFO [02-10|13:49:58] 🔗 block reached canonical chain          number=266 hash=1f0d81…71e29b
+INFO [02-10|13:49:58] 🔨 mined potential block                  number=271 hash=ea9179…eb53b5
+INFO [02-10|13:49:58] Commit new mining work                   number=272 txs=0 uncles=0 elapsed=203.239µs
+INFO [02-10|13:49:59] Successfully sealed new block            number=272 hash=4d4a5e…789c89
+INFO [02-10|13:49:59] 🔗 block reached canonical chain          number=267 hash=ebfbdd…2daabe
+INFO [02-10|13:49:59] 🔨 mined potential block                  number=272 hash=4d4a5e…789c89
+INFO [02-10|13:49:59] Commit new mining work                   number=273 txs=0 uncles=0 elapsed=168.032µs
+INFO [02-10|13:50:01] Successfully sealed new block            number=273 hash=893254…8b2170
+INFO [02-10|13:50:01] 🔗 block reached canonical chain          number=268 hash=78c073…c84ef1
+INFO [02-10|13:50:01] 🔨 mined potential block                  number=273 hash=893254…8b2170
+INFO [02-10|13:50:01] Commit new mining work                   number=274 txs=0 uncles=0 elapsed=173.236µs
+INFO [02-10|13:50:06] Successfully sealed new block            number=274 hash=9df622…fddaea
+INFO [02-10|13:50:06] 🔗 block reached canonical chain          number=269 hash=0db33a…36cf80
+INFO [02-10|13:50:06] 🔨 mined potential block                  number=274 hash=9df622…fddaea
+INFO [02-10|13:50:06] Commit new mining work                   number=275 txs=0 uncles=0 elapsed=225.348µs
+INFO [02-10|13:50:06] Successfully sealed new block            number=275 hash=1458ad…5bd77a
+INFO [02-10|13:50:06] 🔗 block reached canonical chain          number=270 hash=9bd1a1…4f6ef5
+INFO [02-10|13:50:06] 🔨 mined potential block                  number=275 hash=1458ad…5bd77a
+INFO [02-10|13:50:06] Commit new mining work                   number=276 txs=0 uncles=0 elapsed=221.646µs
+INFO [02-10|13:50:08] Successfully sealed new block            number=276 hash=687c4d…1d88ae
+INFO [02-10|13:50:08] 🔗 block reached canonical chain          number=271 hash=ea9179…eb53b5
+INFO [02-10|13:50:08] 🔨 mined potential block                  number=276 hash=687c4d…1d88ae
+INFO [02-10|13:50:08] Commit new mining work                   number=277 txs=0 uncles=0 elapsed=273.908µs
+INFO [02-10|13:50:08] Successfully sealed new block            number=277 hash=c582c8…49a60c
+INFO [02-10|13:50:08] 🔗 block reached canonical chain          number=272 hash=4d4a5e…789c89
+INFO [02-10|13:50:08] 🔨 mined potential block                  number=277 hash=c582c8…49a60c
+INFO [02-10|13:50:08] Commit new mining work                   number=278 txs=0 uncles=0 elapsed=204µs
+INFO [02-10|13:50:09] Successfully sealed new block            number=278 hash=440d4b…1d1c75
+INFO [02-10|13:50:09] 🔗 block reached canonical chain          number=273 hash=893254…8b2170
+INFO [02-10|13:50:09] 🔨 mined potential block                  number=278 hash=440d4b…1d1c75
+INFO [02-10|13:50:09] Commit new mining work                   number=279 txs=0 uncles=0 elapsed=208.33µs
+INFO [02-10|13:50:12] Successfully sealed new block            number=279 hash=78169c…07bd84
+INFO [02-10|13:50:12] 🔗 block reached canonical chain          number=274 hash=9df622…fddaea
+INFO [02-10|13:50:12] 🔨 mined potential block                  number=279 hash=78169c…07bd84
+INFO [02-10|13:50:12] Commit new mining work                   number=280 txs=0 uncles=0 elapsed=132.964µs
+INFO [02-10|13:50:13] Successfully sealed new block            number=280 hash=e6220d…ccbacf
+INFO [02-10|13:50:13] 🔗 block reached canonical chain          number=275 hash=1458ad…5bd77a
+INFO [02-10|13:50:13] 🔨 mined potential block                  number=280 hash=e6220d…ccbacf
+INFO [02-10|13:50:13] Commit new mining work                   number=281 txs=0 uncles=0 elapsed=180.686µs
+INFO [02-10|13:50:15] Successfully sealed new block            number=281 hash=9d7d66…8b3eef
+INFO [02-10|13:50:15] 🔗 block reached canonical chain          number=276 hash=687c4d…1d88ae
+INFO [02-10|13:50:15] 🔨 mined potential block                  number=281 hash=9d7d66…8b3eef
+INFO [02-10|13:50:15] Commit new mining work                   number=282 txs=0 uncles=0 elapsed=127.857µs
+INFO [02-10|13:50:15] Successfully sealed new block            number=282 hash=dfd869…fc5a1a
+INFO [02-10|13:50:15] 🔗 block reached canonical chain          number=277 hash=c582c8…49a60c
+INFO [02-10|13:50:15] 🔨 mined potential block                  number=282 hash=dfd869…fc5a1a
+INFO [02-10|13:50:16] Commit new mining work                   number=283 txs=0 uncles=0 elapsed=160.539µs
+INFO [02-10|13:50:16] Successfully sealed new block            number=283 hash=315d41…9efddb
+INFO [02-10|13:50:16] 🔗 block reached canonical chain          number=278 hash=440d4b…1d1c75
+INFO [02-10|13:50:16] 🔨 mined potential block                  number=283 hash=315d41…9efddb
+INFO [02-10|13:50:16] Commit new mining work                   number=284 txs=0 uncles=0 elapsed=158.537µs
+INFO [02-10|13:50:21] Successfully sealed new block            number=284 hash=6a4268…aef7ef
+INFO [02-10|13:50:21] 🔗 block reached canonical chain          number=279 hash=78169c…07bd84
+INFO [02-10|13:50:21] 🔨 mined potential block                  number=284 hash=6a4268…aef7ef
+INFO [02-10|13:50:21] Commit new mining work                   number=285 txs=0 uncles=0 elapsed=172.563µs
+INFO [02-10|13:50:25] Successfully sealed new block            number=285 hash=f8b34e…daa3a2
+INFO [02-10|13:50:25] 🔗 block reached canonical chain          number=280 hash=e6220d…ccbacf
+INFO [02-10|13:50:25] 🔨 mined potential block                  number=285 hash=f8b34e…daa3a2
+INFO [02-10|13:50:25] Commit new mining work                   number=286 txs=0 uncles=0 elapsed=119.38µs
+INFO [02-10|13:50:25] Successfully sealed new block            number=286 hash=e0a0c0…336913
+INFO [02-10|13:50:25] 🔗 block reached canonical chain          number=281 hash=9d7d66…8b3eef
+INFO [02-10|13:50:25] 🔨 mined potential block                  number=286 hash=e0a0c0…336913
+INFO [02-10|13:50:25] Commit new mining work                   number=287 txs=0 uncles=0 elapsed=163.335µs
+INFO [02-10|13:50:26] Successfully sealed new block            number=287 hash=8a3281…50c504
+INFO [02-10|13:50:26] 🔗 block reached canonical chain          number=282 hash=dfd869…fc5a1a
+INFO [02-10|13:50:26] 🔨 mined potential block                  number=287 hash=8a3281…50c504
+INFO [02-10|13:50:26] Commit new mining work                   number=288 txs=0 uncles=0 elapsed=209.692µs
+INFO [02-10|13:50:26] Successfully sealed new block            number=288 hash=2b8e2e…5776ae
+INFO [02-10|13:50:26] 🔗 block reached canonical chain          number=283 hash=315d41…9efddb
+INFO [02-10|13:50:26] 🔨 mined potential block                  number=288 hash=2b8e2e…5776ae
+INFO [02-10|13:50:26] Mining too far in the future             wait=2s
+INFO [02-10|13:50:28] Commit new mining work                   number=289 txs=0 uncles=0 elapsed=2.001s
+INFO [02-10|13:50:28] Successfully sealed new block            number=289 hash=cde16d…e42ece
+INFO [02-10|13:50:28] 🔗 block reached canonical chain          number=284 hash=6a4268…aef7ef
+INFO [02-10|13:50:28] 🔨 mined potential block                  number=289 hash=cde16d…e42ece
+INFO [02-10|13:50:28] Commit new mining work                   number=290 txs=0 uncles=0 elapsed=131.139µs
+INFO [02-10|13:50:29] Successfully sealed new block            number=290 hash=4a5c47…3fb53d
+INFO [02-10|13:50:29] 🔗 block reached canonical chain          number=285 hash=f8b34e…daa3a2
+INFO [02-10|13:50:29] 🔨 mined potential block                  number=290 hash=4a5c47…3fb53d
+INFO [02-10|13:50:29] Commit new mining work                   number=291 txs=0 uncles=0 elapsed=226.772µs
+INFO [02-10|13:50:30] Successfully sealed new block            number=291 hash=3df5d1…e66f8a
+INFO [02-10|13:50:30] 🔗 block reached canonical chain          number=286 hash=e0a0c0…336913
+INFO [02-10|13:50:30] 🔨 mined potential block                  number=291 hash=3df5d1…e66f8a
+INFO [02-10|13:50:30] Commit new mining work                   number=292 txs=0 uncles=0 elapsed=119.343µs
+INFO [02-10|13:50:33] Successfully sealed new block            number=292 hash=1cf4fc…c019bd
+INFO [02-10|13:50:33] 🔗 block reached canonical chain          number=287 hash=8a3281…50c504
+INFO [02-10|13:50:33] 🔨 mined potential block                  number=292 hash=1cf4fc…c019bd
+INFO [02-10|13:50:33] Commit new mining work                   number=293 txs=0 uncles=0 elapsed=114.321µs
+INFO [02-10|13:50:39] Successfully sealed new block            number=293 hash=a0c2eb…e22788
+INFO [02-10|13:50:39] 🔗 block reached canonical chain          number=288 hash=2b8e2e…5776ae
+INFO [02-10|13:50:39] 🔨 mined potential block                  number=293 hash=a0c2eb…e22788
+INFO [02-10|13:50:39] Commit new mining work                   number=294 txs=0 uncles=0 elapsed=312.202µs
+INFO [02-10|13:50:39] Successfully sealed new block            number=294 hash=8fde48…7eb726
+INFO [02-10|13:50:39] 🔗 block reached canonical chain          number=289 hash=cde16d…e42ece
+INFO [02-10|13:50:39] 🔨 mined potential block                  number=294 hash=8fde48…7eb726
+INFO [02-10|13:50:39] Commit new mining work                   number=295 txs=0 uncles=0 elapsed=164.205µs
+INFO [02-10|13:50:39] Successfully sealed new block            number=295 hash=848e0f…926301
+INFO [02-10|13:50:39] 🔗 block reached canonical chain          number=290 hash=4a5c47…3fb53d
+INFO [02-10|13:50:39] 🔨 mined potential block                  number=295 hash=848e0f…926301
+INFO [02-10|13:50:39] Mining too far in the future             wait=2s
+INFO [02-10|13:50:41] Commit new mining work                   number=296 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:50:42] Successfully sealed new block            number=296 hash=776206…e88d47
+INFO [02-10|13:50:42] 🔗 block reached canonical chain          number=291 hash=3df5d1…e66f8a
+INFO [02-10|13:50:42] 🔨 mined potential block                  number=296 hash=776206…e88d47
+INFO [02-10|13:50:42] Commit new mining work                   number=297 txs=0 uncles=0 elapsed=115.048µs
+INFO [02-10|13:50:43] Successfully sealed new block            number=297 hash=d15460…5b464d
+INFO [02-10|13:50:43] 🔗 block reached canonical chain          number=292 hash=1cf4fc…c019bd
+INFO [02-10|13:50:43] 🔨 mined potential block                  number=297 hash=d15460…5b464d
+INFO [02-10|13:50:43] Commit new mining work                   number=298 txs=0 uncles=0 elapsed=140.186µs
+INFO [02-10|13:50:44] Successfully sealed new block            number=298 hash=ad62a4…c71670
+INFO [02-10|13:50:44] 🔗 block reached canonical chain          number=293 hash=a0c2eb…e22788
+INFO [02-10|13:50:44] 🔨 mined potential block                  number=298 hash=ad62a4…c71670
+INFO [02-10|13:50:44] Commit new mining work                   number=299 txs=0 uncles=0 elapsed=157.996µs
+INFO [02-10|13:50:44] Successfully sealed new block            number=299 hash=84d325…494d82
+INFO [02-10|13:50:44] 🔗 block reached canonical chain          number=294 hash=8fde48…7eb726
+INFO [02-10|13:50:44] 🔨 mined potential block                  number=299 hash=84d325…494d82
+INFO [02-10|13:50:44] Commit new mining work                   number=300 txs=0 uncles=0 elapsed=148.721µs
+INFO [02-10|13:50:44] Successfully sealed new block            number=300 hash=ed5df7…ffa876
+INFO [02-10|13:50:44] 🔗 block reached canonical chain          number=295 hash=848e0f…926301
+INFO [02-10|13:50:44] 🔨 mined potential block                  number=300 hash=ed5df7…ffa876
+INFO [02-10|13:50:44] Mining too far in the future             wait=2s
+INFO [02-10|13:50:46] Commit new mining work                   number=301 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:50:46] Successfully sealed new block            number=301 hash=801caa…e8dd8f
+INFO [02-10|13:50:46] 🔗 block reached canonical chain          number=296 hash=776206…e88d47
+INFO [02-10|13:50:46] 🔨 mined potential block                  number=301 hash=801caa…e8dd8f
+INFO [02-10|13:50:46] Commit new mining work                   number=302 txs=0 uncles=0 elapsed=128.382µs
+INFO [02-10|13:50:47] Successfully sealed new block            number=302 hash=270be4…9ad96b
+INFO [02-10|13:50:47] 🔗 block reached canonical chain          number=297 hash=d15460…5b464d
+INFO [02-10|13:50:47] 🔨 mined potential block                  number=302 hash=270be4…9ad96b
+INFO [02-10|13:50:47] Commit new mining work                   number=303 txs=0 uncles=0 elapsed=199.219µs
+INFO [02-10|13:50:47] Successfully sealed new block            number=303 hash=191bbf…cea57c
+INFO [02-10|13:50:47] 🔗 block reached canonical chain          number=298 hash=ad62a4…c71670
+INFO [02-10|13:50:47] 🔨 mined potential block                  number=303 hash=191bbf…cea57c
+INFO [02-10|13:50:47] Mining too far in the future             wait=2s
+INFO [02-10|13:50:49] Commit new mining work                   number=304 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:50:49] Successfully sealed new block            number=304 hash=cd9477…2fe734
+INFO [02-10|13:50:49] 🔗 block reached canonical chain          number=299 hash=84d325…494d82
+INFO [02-10|13:50:49] 🔨 mined potential block                  number=304 hash=cd9477…2fe734
+INFO [02-10|13:50:49] Commit new mining work                   number=305 txs=0 uncles=0 elapsed=183.479µs
+INFO [02-10|13:50:49] Successfully sealed new block            number=305 hash=430492…2491fb
+INFO [02-10|13:50:49] 🔗 block reached canonical chain          number=300 hash=ed5df7…ffa876
+INFO [02-10|13:50:49] 🔨 mined potential block                  number=305 hash=430492…2491fb
+INFO [02-10|13:50:49] Mining too far in the future             wait=2s
+INFO [02-10|13:50:51] Commit new mining work                   number=306 txs=0 uncles=0 elapsed=2.004s
+INFO [02-10|13:50:53] Successfully sealed new block            number=306 hash=b75282…02b6d5
+INFO [02-10|13:50:53] 🔗 block reached canonical chain          number=301 hash=801caa…e8dd8f
+INFO [02-10|13:50:53] 🔨 mined potential block                  number=306 hash=b75282…02b6d5
+INFO [02-10|13:50:53] Commit new mining work                   number=307 txs=0 uncles=0 elapsed=152.597µs
+INFO [02-10|13:50:54] Successfully sealed new block            number=307 hash=421f0b…484ebd
+INFO [02-10|13:50:54] 🔗 block reached canonical chain          number=302 hash=270be4…9ad96b
+INFO [02-10|13:50:54] 🔨 mined potential block                  number=307 hash=421f0b…484ebd
+INFO [02-10|13:50:54] Commit new mining work                   number=308 txs=0 uncles=0 elapsed=132.153µs
+INFO [02-10|13:50:55] Successfully sealed new block            number=308 hash=0aa40f…05b41f
+INFO [02-10|13:50:55] 🔗 block reached canonical chain          number=303 hash=191bbf…cea57c
+INFO [02-10|13:50:55] 🔨 mined potential block                  number=308 hash=0aa40f…05b41f
+INFO [02-10|13:50:55] Commit new mining work                   number=309 txs=0 uncles=0 elapsed=224.608µs
+INFO [02-10|13:50:55] Successfully sealed new block            number=309 hash=630eaf…e671a3
+INFO [02-10|13:50:55] 🔗 block reached canonical chain          number=304 hash=cd9477…2fe734
+INFO [02-10|13:50:55] 🔨 mined potential block                  number=309 hash=630eaf…e671a3
+INFO [02-10|13:50:55] Commit new mining work                   number=310 txs=0 uncles=0 elapsed=115.305µs
+INFO [02-10|13:50:56] Successfully sealed new block            number=310 hash=b14fac…f9fa70
+INFO [02-10|13:50:56] 🔗 block reached canonical chain          number=305 hash=430492…2491fb
+INFO [02-10|13:50:56] 🔨 mined potential block                  number=310 hash=b14fac…f9fa70
+INFO [02-10|13:50:56] Commit new mining work                   number=311 txs=0 uncles=0 elapsed=156.143µs
+INFO [02-10|13:50:58] Successfully sealed new block            number=311 hash=457e48…8969fb
+INFO [02-10|13:50:58] 🔗 block reached canonical chain          number=306 hash=b75282…02b6d5
+INFO [02-10|13:50:58] 🔨 mined potential block                  number=311 hash=457e48…8969fb
+INFO [02-10|13:50:58] Commit new mining work                   number=312 txs=0 uncles=0 elapsed=119.624µs
+INFO [02-10|13:50:58] Successfully sealed new block            number=312 hash=061795…09df09
+INFO [02-10|13:50:58] 🔗 block reached canonical chain          number=307 hash=421f0b…484ebd
+INFO [02-10|13:50:58] 🔨 mined potential block                  number=312 hash=061795…09df09
+INFO [02-10|13:50:58] Commit new mining work                   number=313 txs=0 uncles=0 elapsed=219.821µs
+INFO [02-10|13:50:58] Successfully sealed new block            number=313 hash=ceda54…b959db
+INFO [02-10|13:50:58] 🔗 block reached canonical chain          number=308 hash=0aa40f…05b41f
+INFO [02-10|13:50:58] 🔨 mined potential block                  number=313 hash=ceda54…b959db
+INFO [02-10|13:50:58] Mining too far in the future             wait=2s
+INFO [02-10|13:51:00] Commit new mining work                   number=314 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:51:00] Successfully sealed new block            number=314 hash=61b00a…56e902
+INFO [02-10|13:51:00] 🔗 block reached canonical chain          number=309 hash=630eaf…e671a3
+INFO [02-10|13:51:00] 🔨 mined potential block                  number=314 hash=61b00a…56e902
+INFO [02-10|13:51:00] Commit new mining work                   number=315 txs=0 uncles=0 elapsed=117.537µs
+INFO [02-10|13:51:01] Successfully sealed new block            number=315 hash=9954c3…4d05cc
+INFO [02-10|13:51:01] 🔗 block reached canonical chain          number=310 hash=b14fac…f9fa70
+INFO [02-10|13:51:01] 🔨 mined potential block                  number=315 hash=9954c3…4d05cc
+INFO [02-10|13:51:01] Commit new mining work                   number=316 txs=0 uncles=0 elapsed=119.017µs
+INFO [02-10|13:51:01] Successfully sealed new block            number=316 hash=6afd17…46a1a2
+INFO [02-10|13:51:01] 🔗 block reached canonical chain          number=311 hash=457e48…8969fb
+INFO [02-10|13:51:01] 🔨 mined potential block                  number=316 hash=6afd17…46a1a2
+INFO [02-10|13:51:01] Mining too far in the future             wait=2s
+INFO [02-10|13:51:03] Commit new mining work                   number=317 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:51:07] Successfully sealed new block            number=317 hash=79b4d2…3b1a35
+INFO [02-10|13:51:07] 🔗 block reached canonical chain          number=312 hash=061795…09df09
+INFO [02-10|13:51:07] 🔨 mined potential block                  number=317 hash=79b4d2…3b1a35
+INFO [02-10|13:51:07] Commit new mining work                   number=318 txs=0 uncles=0 elapsed=202.428µs
+INFO [02-10|13:51:10] Successfully sealed new block            number=318 hash=6f21ce…497643
+INFO [02-10|13:51:10] 🔗 block reached canonical chain          number=313 hash=ceda54…b959db
+INFO [02-10|13:51:10] 🔨 mined potential block                  number=318 hash=6f21ce…497643
+INFO [02-10|13:51:10] Commit new mining work                   number=319 txs=0 uncles=0 elapsed=183.794µs
+INFO [02-10|13:51:13] Successfully sealed new block            number=319 hash=9a3d4d…ab880a
+INFO [02-10|13:51:13] 🔗 block reached canonical chain          number=314 hash=61b00a…56e902
+INFO [02-10|13:51:13] 🔨 mined potential block                  number=319 hash=9a3d4d…ab880a
+INFO [02-10|13:51:13] Commit new mining work                   number=320 txs=0 uncles=0 elapsed=180.037µs
+INFO [02-10|13:51:14] Successfully sealed new block            number=320 hash=19b7c7…9c34bd
+INFO [02-10|13:51:14] 🔗 block reached canonical chain          number=315 hash=9954c3…4d05cc
+INFO [02-10|13:51:14] 🔨 mined potential block                  number=320 hash=19b7c7…9c34bd
+INFO [02-10|13:51:14] Commit new mining work                   number=321 txs=0 uncles=0 elapsed=305.498µs
+INFO [02-10|13:51:15] Successfully sealed new block            number=321 hash=7783e9…fb9030
+INFO [02-10|13:51:15] 🔗 block reached canonical chain          number=316 hash=6afd17…46a1a2
+INFO [02-10|13:51:15] 🔨 mined potential block                  number=321 hash=7783e9…fb9030
+INFO [02-10|13:51:15] Commit new mining work                   number=322 txs=0 uncles=0 elapsed=182.403µs
+INFO [02-10|13:51:15] Successfully sealed new block            number=322 hash=0bd948…c90f8c
+INFO [02-10|13:51:15] 🔗 block reached canonical chain          number=317 hash=79b4d2…3b1a35
+INFO [02-10|13:51:15] 🔨 mined potential block                  number=322 hash=0bd948…c90f8c
+INFO [02-10|13:51:15] Commit new mining work                   number=323 txs=0 uncles=0 elapsed=164.954µs
+INFO [02-10|13:51:16] Successfully sealed new block            number=323 hash=de34ef…a8b85b
+INFO [02-10|13:51:16] 🔗 block reached canonical chain          number=318 hash=6f21ce…497643
+INFO [02-10|13:51:16] 🔨 mined potential block                  number=323 hash=de34ef…a8b85b
+INFO [02-10|13:51:16] Commit new mining work                   number=324 txs=0 uncles=0 elapsed=148.008µs
+INFO [02-10|13:51:16] Successfully sealed new block            number=324 hash=b17c45…68d32b
+INFO [02-10|13:51:16] 🔗 block reached canonical chain          number=319 hash=9a3d4d…ab880a
+INFO [02-10|13:51:16] 🔨 mined potential block                  number=324 hash=b17c45…68d32b
+INFO [02-10|13:51:16] Mining too far in the future             wait=2s
+INFO [02-10|13:51:18] Commit new mining work                   number=325 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:51:19] Successfully sealed new block            number=325 hash=230b29…4ff6ba
+INFO [02-10|13:51:19] 🔗 block reached canonical chain          number=320 hash=19b7c7…9c34bd
+INFO [02-10|13:51:19] 🔨 mined potential block                  number=325 hash=230b29…4ff6ba
+INFO [02-10|13:51:19] Commit new mining work                   number=326 txs=0 uncles=0 elapsed=149.809µs
+INFO [02-10|13:51:19] Successfully sealed new block            number=326 hash=7baa29…f1f6be
+INFO [02-10|13:51:19] 🔗 block reached canonical chain          number=321 hash=7783e9…fb9030
+INFO [02-10|13:51:19] 🔨 mined potential block                  number=326 hash=7baa29…f1f6be
+INFO [02-10|13:51:19] Commit new mining work                   number=327 txs=0 uncles=0 elapsed=229.959µs
+INFO [02-10|13:51:20] Successfully sealed new block            number=327 hash=2e629d…36d3d6
+INFO [02-10|13:51:20] 🔗 block reached canonical chain          number=322 hash=0bd948…c90f8c
+INFO [02-10|13:51:20] 🔨 mined potential block                  number=327 hash=2e629d…36d3d6
+INFO [02-10|13:51:20] Commit new mining work                   number=328 txs=0 uncles=0 elapsed=162.081µs
+INFO [02-10|13:51:26] Successfully sealed new block            number=328 hash=2dfd7a…7ef599
+INFO [02-10|13:51:26] 🔗 block reached canonical chain          number=323 hash=de34ef…a8b85b
+INFO [02-10|13:51:26] 🔨 mined potential block                  number=328 hash=2dfd7a…7ef599
+INFO [02-10|13:51:26] Commit new mining work                   number=329 txs=0 uncles=0 elapsed=114.296µs
+INFO [02-10|13:51:27] Successfully sealed new block            number=329 hash=7a87f0…d18796
+INFO [02-10|13:51:27] 🔗 block reached canonical chain          number=324 hash=b17c45…68d32b
+INFO [02-10|13:51:27] 🔨 mined potential block                  number=329 hash=7a87f0…d18796
+INFO [02-10|13:51:27] Commit new mining work                   number=330 txs=0 uncles=0 elapsed=185.992µs
+INFO [02-10|13:51:28] Successfully sealed new block            number=330 hash=a01297…5efc9f
+INFO [02-10|13:51:28] 🔗 block reached canonical chain          number=325 hash=230b29…4ff6ba
+INFO [02-10|13:51:28] 🔨 mined potential block                  number=330 hash=a01297…5efc9f
+INFO [02-10|13:51:28] Commit new mining work                   number=331 txs=0 uncles=0 elapsed=125.742µs
+INFO [02-10|13:51:30] Successfully sealed new block            number=331 hash=8d74af…4268c7
+INFO [02-10|13:51:30] 🔗 block reached canonical chain          number=326 hash=7baa29…f1f6be
+INFO [02-10|13:51:30] 🔨 mined potential block                  number=331 hash=8d74af…4268c7
+INFO [02-10|13:51:30] Commit new mining work                   number=332 txs=0 uncles=0 elapsed=129.777µs
+INFO [02-10|13:51:32] Successfully sealed new block            number=332 hash=db4d7d…870b6e
+INFO [02-10|13:51:32] 🔗 block reached canonical chain          number=327 hash=2e629d…36d3d6
+INFO [02-10|13:51:32] 🔨 mined potential block                  number=332 hash=db4d7d…870b6e
+INFO [02-10|13:51:32] Commit new mining work                   number=333 txs=0 uncles=0 elapsed=121.212µs
+INFO [02-10|13:51:32] Successfully sealed new block            number=333 hash=9752ef…212d80
+INFO [02-10|13:51:32] 🔗 block reached canonical chain          number=328 hash=2dfd7a…7ef599
+INFO [02-10|13:51:32] 🔨 mined potential block                  number=333 hash=9752ef…212d80
+INFO [02-10|13:51:32] Commit new mining work                   number=334 txs=0 uncles=0 elapsed=140.12µs
+INFO [02-10|13:51:33] Successfully sealed new block            number=334 hash=52bb1a…b11b2a
+INFO [02-10|13:51:33] 🔗 block reached canonical chain          number=329 hash=7a87f0…d18796
+INFO [02-10|13:51:33] 🔨 mined potential block                  number=334 hash=52bb1a…b11b2a
+INFO [02-10|13:51:33] Commit new mining work                   number=335 txs=0 uncles=0 elapsed=525.633µs
+INFO [02-10|13:51:33] Successfully sealed new block            number=335 hash=1c4cd4…dd4164
+INFO [02-10|13:51:33] 🔗 block reached canonical chain          number=330 hash=a01297…5efc9f
+INFO [02-10|13:51:33] 🔨 mined potential block                  number=335 hash=1c4cd4…dd4164
+INFO [02-10|13:51:33] Mining too far in the future             wait=2s
+INFO [02-10|13:51:35] Commit new mining work                   number=336 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:51:36] Successfully sealed new block            number=336 hash=3c4a3e…36e0f4
+INFO [02-10|13:51:36] 🔗 block reached canonical chain          number=331 hash=8d74af…4268c7
+INFO [02-10|13:51:36] 🔨 mined potential block                  number=336 hash=3c4a3e…36e0f4
+INFO [02-10|13:51:36] Commit new mining work                   number=337 txs=0 uncles=0 elapsed=276.987µs
+INFO [02-10|13:51:37] Successfully sealed new block            number=337 hash=7d7194…309b10
+INFO [02-10|13:51:37] 🔗 block reached canonical chain          number=332 hash=db4d7d…870b6e
+INFO [02-10|13:51:37] 🔨 mined potential block                  number=337 hash=7d7194…309b10
+INFO [02-10|13:51:37] Commit new mining work                   number=338 txs=0 uncles=0 elapsed=138.991µs
+INFO [02-10|13:51:39] Successfully sealed new block            number=338 hash=f80f53…49a90d
+INFO [02-10|13:51:39] 🔗 block reached canonical chain          number=333 hash=9752ef…212d80
+INFO [02-10|13:51:39] 🔨 mined potential block                  number=338 hash=f80f53…49a90d
+INFO [02-10|13:51:39] Commit new mining work                   number=339 txs=0 uncles=0 elapsed=159.271µs
+INFO [02-10|13:51:40] Successfully sealed new block            number=339 hash=6a7abf…99b949
+INFO [02-10|13:51:40] 🔗 block reached canonical chain          number=334 hash=52bb1a…b11b2a
+INFO [02-10|13:51:40] 🔨 mined potential block                  number=339 hash=6a7abf…99b949
+INFO [02-10|13:51:40] Commit new mining work                   number=340 txs=0 uncles=0 elapsed=129.933µs
+INFO [02-10|13:51:43] Successfully sealed new block            number=340 hash=894c80…a8c788
+INFO [02-10|13:51:43] 🔗 block reached canonical chain          number=335 hash=1c4cd4…dd4164
+INFO [02-10|13:51:43] 🔨 mined potential block                  number=340 hash=894c80…a8c788
+INFO [02-10|13:51:43] Commit new mining work                   number=341 txs=0 uncles=0 elapsed=185.655µs
+INFO [02-10|13:51:43] Successfully sealed new block            number=341 hash=134e90…fa36d8
+INFO [02-10|13:51:43] 🔗 block reached canonical chain          number=336 hash=3c4a3e…36e0f4
+INFO [02-10|13:51:43] 🔨 mined potential block                  number=341 hash=134e90…fa36d8
+INFO [02-10|13:51:43] Commit new mining work                   number=342 txs=0 uncles=0 elapsed=410.707µs
+INFO [02-10|13:51:44] Successfully sealed new block            number=342 hash=afdca0…b3b95f
+INFO [02-10|13:51:44] 🔗 block reached canonical chain          number=337 hash=7d7194…309b10
+INFO [02-10|13:51:44] 🔨 mined potential block                  number=342 hash=afdca0…b3b95f
+INFO [02-10|13:51:44] Commit new mining work                   number=343 txs=0 uncles=0 elapsed=115.584µs
+INFO [02-10|13:51:44] Successfully sealed new block            number=343 hash=5970cf…fe996b
+INFO [02-10|13:51:44] 🔗 block reached canonical chain          number=338 hash=f80f53…49a90d
+INFO [02-10|13:51:44] 🔨 mined potential block                  number=343 hash=5970cf…fe996b
+INFO [02-10|13:51:44] Mining too far in the future             wait=2s
+INFO [02-10|13:51:46] Commit new mining work                   number=344 txs=0 uncles=0 elapsed=2.003s
+INFO [02-10|13:51:46] Successfully sealed new block            number=344 hash=c7e5b0…c9a2a9
+INFO [02-10|13:51:46] 🔗 block reached canonical chain          number=339 hash=6a7abf…99b949
+INFO [02-10|13:51:46] 🔨 mined potential block                  number=344 hash=c7e5b0…c9a2a9
+INFO [02-10|13:51:46] Commit new mining work                   number=345 txs=0 uncles=0 elapsed=175.792µs
+INFO [02-10|13:51:46] Successfully sealed new block            number=345 hash=315a00…627e28
+INFO [02-10|13:51:46] 🔗 block reached canonical chain          number=340 hash=894c80…a8c788
+INFO [02-10|13:51:46] 🔨 mined potential block                  number=345 hash=315a00…627e28
+INFO [02-10|13:51:46] Mining too far in the future             wait=2s
+INFO [02-10|13:51:48] Commit new mining work                   number=346 txs=0 uncles=0 elapsed=2.005s
+INFO [02-10|13:51:52] Successfully sealed new block            number=346 hash=9e0236…77619f
+INFO [02-10|13:51:52] 🔗 block reached canonical chain          number=341 hash=134e90…fa36d8
+INFO [02-10|13:51:52] 🔨 mined potential block                  number=346 hash=9e0236…77619f
+INFO [02-10|13:51:52] Commit new mining work                   number=347 txs=0 uncles=0 elapsed=139.852µs
+INFO [02-10|13:51:52] Successfully sealed new block            number=347 hash=0938c2…587db0
+INFO [02-10|13:51:52] 🔗 block reached canonical chain          number=342 hash=afdca0…b3b95f
+INFO [02-10|13:51:52] 🔨 mined potential block                  number=347 hash=0938c2…587db0
+INFO [02-10|13:51:52] Commit new mining work                   number=348 txs=0 uncles=0 elapsed=126.164µs
+INFO [02-10|13:51:53] Successfully sealed new block            number=348 hash=e64477…61a493
+INFO [02-10|13:51:53] 🔗 block reached canonical chain          number=343 hash=5970cf…fe996b
+INFO [02-10|13:51:53] 🔨 mined potential block                  number=348 hash=e64477…61a493
+INFO [02-10|13:51:53] Commit new mining work                   number=349 txs=0 uncles=0 elapsed=232.298µs
+INFO [02-10|13:51:53] Successfully sealed new block            number=349 hash=60b77b…5036bc
+INFO [02-10|13:51:53] 🔗 block reached canonical chain          number=344 hash=c7e5b0…c9a2a9
+INFO [02-10|13:51:53] 🔨 mined potential block                  number=349 hash=60b77b…5036bc
+INFO [02-10|13:51:53] Mining too far in the future             wait=2s
+INFO [02-10|13:51:55] Commit new mining work                   number=350 txs=0 uncles=0 elapsed=2.004s
+INFO [02-10|13:51:55] Successfully sealed new block            number=350 hash=28d367…efb956
+INFO [02-10|13:51:55] 🔗 block reached canonical chain          number=345 hash=315a00…627e28
+INFO [02-10|13:51:55] 🔨 mined potential block                  number=350 hash=28d367…efb956
+INFO [02-10|13:51:55] Commit new mining work                   number=351 txs=0 uncles=0 elapsed=142.238µs
+INFO [02-10|13:51:57] Successfully sealed new block            number=351 hash=f7a30c…c43fff
+INFO [02-10|13:51:57] 🔗 block reached canonical chain          number=346 hash=9e0236…77619f
+INFO [02-10|13:51:57] 🔨 mined potential block                  number=351 hash=f7a30c…c43fff
+INFO [02-10|13:51:57] Commit new mining work                   number=352 txs=0 uncles=0 elapsed=162.68µs
+INFO [02-10|13:51:57] Successfully sealed new block            number=352 hash=29f1e2…a42ee0
+INFO [02-10|13:51:57] 🔗 block reached canonical chain          number=347 hash=0938c2…587db0
+INFO [02-10|13:51:57] 🔨 mined potential block                  number=352 hash=29f1e2…a42ee0
+INFO [02-10|13:51:57] Commit new mining work                   number=353 txs=0 uncles=0 elapsed=275.037µs
+INFO [02-10|13:51:57] Successfully sealed new block            number=353 hash=266690…6d52b3
+INFO [02-10|13:51:57] 🔗 block reached canonical chain          number=348 hash=e64477…61a493
+INFO [02-10|13:51:57] 🔨 mined potential block                  number=353 hash=266690…6d52b3
+INFO [02-10|13:51:57] Mining too far in the future             wait=2s
+INFO [02-10|13:51:59] Commit new mining work                   number=354 txs=0 uncles=0 elapsed=2.002s
+INFO [02-10|13:52:00] Successfully sealed new block            number=354 hash=ffae03…309d5c
+INFO [02-10|13:52:00] 🔗 block reached canonical chain          number=349 hash=60b77b…5036bc
+INFO [02-10|13:52:00] 🔨 mined potential block                  number=354 hash=ffae03…309d5c
+INFO [02-10|13:52:00] Commit new mining work                   number=355 txs=0 uncles=0 elapsed=153.999µs
+INFO [02-10|13:52:03] Successfully sealed new block            number=355 hash=66a704…7caf8b
+INFO [02-10|13:52:03] 🔗 block reached canonical chain          number=350 hash=28d367…efb956
+INFO [02-10|13:52:03] 🔨 mined potential block                  number=355 hash=66a704…7caf8b
+INFO [02-10|13:52:03] Commit new mining work                   number=356 txs=0 uncles=0 elapsed=127.458µs
+INFO [02-10|13:52:03] Successfully sealed new block            number=356 hash=fedab6…c2001d
+INFO [02-10|13:52:03] 🔗 block reached canonical chain          number=351 hash=f7a30c…c43fff
+INFO [02-10|13:52:03] 🔨 mined potential block                  number=356 hash=fedab6…c2001d
+INFO [02-10|13:52:03] Commit new mining work                   number=357 txs=0 uncles=0 elapsed=124.108µs
+INFO [02-10|13:52:03] Successfully sealed new block            number=357 hash=dec5ab…b844c6
+INFO [02-10|13:52:03] 🔗 block reached canonical chain          number=352 hash=29f1e2…a42ee0
+INFO [02-10|13:52:03] Mining too far in the future             wait=2s
+INFO [02-10|13:52:03] 🔨 mined potential block                  number=357 hash=dec5ab…b844c6
+INFO [02-10|13:52:05] Commit new mining work                   number=358 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:52:06] Successfully sealed new block            number=358 hash=904b5c…4b1e3f
+INFO [02-10|13:52:06] 🔗 block reached canonical chain          number=353 hash=266690…6d52b3
+INFO [02-10|13:52:06] 🔨 mined potential block                  number=358 hash=904b5c…4b1e3f
+INFO [02-10|13:52:06] Commit new mining work                   number=359 txs=0 uncles=0 elapsed=165.17µs
+INFO [02-10|13:52:06] Successfully sealed new block            number=359 hash=22d840…560a25
+INFO [02-10|13:52:06] 🔗 block reached canonical chain          number=354 hash=ffae03…309d5c
+INFO [02-10|13:52:06] 🔨 mined potential block                  number=359 hash=22d840…560a25
+INFO [02-10|13:52:06] Commit new mining work                   number=360 txs=0 uncles=0 elapsed=192.875µs
+INFO [02-10|13:52:07] Successfully sealed new block            number=360 hash=a7f340…8887c6
+INFO [02-10|13:52:07] 🔗 block reached canonical chain          number=355 hash=66a704…7caf8b
+INFO [02-10|13:52:07] 🔨 mined potential block                  number=360 hash=a7f340…8887c6
+INFO [02-10|13:52:07] Commit new mining work                   number=361 txs=0 uncles=0 elapsed=640.206µs
+INFO [02-10|13:52:07] Successfully sealed new block            number=361 hash=11e13c…f1a71f
+INFO [02-10|13:52:07] 🔗 block reached canonical chain          number=356 hash=fedab6…c2001d
+INFO [02-10|13:52:07] 🔨 mined potential block                  number=361 hash=11e13c…f1a71f
+INFO [02-10|13:52:07] Mining too far in the future             wait=2s
+INFO [02-10|13:52:09] Commit new mining work                   number=362 txs=0 uncles=0 elapsed=2.001s
+INFO [02-10|13:52:10] Successfully sealed new block            number=362 hash=fb132b…ef681f
+INFO [02-10|13:52:10] 🔗 block reached canonical chain          number=357 hash=dec5ab…b844c6
+INFO [02-10|13:52:10] 🔨 mined potential block                  number=362 hash=fb132b…ef681f
+INFO [02-10|13:52:10] Commit new mining work                   number=363 txs=0 uncles=0 elapsed=156.671µs
+INFO [02-10|13:52:11] Successfully sealed new block            number=363 hash=0d5f20…9bef9b
+INFO [02-10|13:52:11] 🔗 block reached canonical chain          number=358 hash=904b5c…4b1e3f
+INFO [02-10|13:52:11] 🔨 mined potential block                  number=363 hash=0d5f20…9bef9b
+INFO [02-10|13:52:11] Commit new mining work                   number=364 txs=0 uncles=0 elapsed=130.243µs
+INFO [02-10|13:52:12] Successfully sealed new block            number=364 hash=1e45ae…8bd84a
+INFO [02-10|13:52:12] 🔗 block reached canonical chain          number=359 hash=22d840…560a25
+INFO [02-10|13:52:12] 🔨 mined potential block                  number=364 hash=1e45ae…8bd84a
+INFO [02-10|13:52:12] Commit new mining work                   number=365 txs=0 uncles=0 elapsed=125.821µs
+INFO [02-10|13:52:14] Successfully sealed new block            number=365 hash=f09067…36e9f4
+INFO [02-10|13:52:14] 🔗 block reached canonical chain          number=360 hash=a7f340…8887c6
+INFO [02-10|13:52:14] 🔨 mined potential block                  number=365 hash=f09067…36e9f4
+INFO [02-10|13:52:14] Commit new mining work                   number=366 txs=0 uncles=0 elapsed=143.747µs
+INFO [02-10|13:52:14] Successfully sealed new block            number=366 hash=7188dc…8f8ddf
+INFO [02-10|13:52:14] 🔗 block reached canonical chain          number=361 hash=11e13c…f1a71f
+INFO [02-10|13:52:14] 🔨 mined potential block                  number=366 hash=7188dc…8f8ddf
+INFO [02-10|13:52:14] Commit new mining work                   number=367 txs=0 uncles=0 elapsed=179.223µs
+INFO [02-10|13:52:15] Successfully sealed new block            number=367 hash=e7efcc…b2f8af
+INFO [02-10|13:52:15] 🔗 block reached canonical chain          number=362 hash=fb132b…ef681f
+INFO [02-10|13:52:15] 🔨 mined potential block                  number=367 hash=e7efcc…b2f8af
+INFO [02-10|13:52:15] Commit new mining work                   number=368 txs=0 uncles=0 elapsed=181.677µs
+INFO [02-10|13:52:15] Successfully sealed new block            number=368 hash=abf86d…523c80
+INFO [02-10|13:52:15] 🔗 block reached canonical chain          number=363 hash=0d5f20…9bef9b
+INFO [02-10|13:52:15] 🔨 mined potential block                  number=368 hash=abf86d…523c80
+INFO [02-10|13:52:15] Mining too far in the future             wait=2s
+INFO [02-10|13:52:17] Commit new mining work                   number=369 txs=0 uncles=0 elapsed=2.000s
+INFO [02-10|13:52:18] Successfully sealed new block            number=369 hash=b83908…dbf69c
+INFO [02-10|13:52:18] 🔗 block reached canonical chain          number=364 hash=1e45ae…8bd84a
+INFO [02-10|13:52:18] 🔨 mined potential block                  number=369 hash=b83908…dbf69c
+INFO [02-10|13:52:18] Commit new mining work                   number=370 txs=0 uncles=0 elapsed=151.642µs
+INFO [02-10|13:52:19] Successfully sealed new block            number=370 hash=da1d94…068764
+INFO [02-10|13:52:19] 🔗 block reached canonical chain          number=365 hash=f09067…36e9f4
+INFO [02-10|13:52:19] 🔨 mined potential block                  number=370 hash=da1d94…068764
+INFO [02-10|13:52:19] Commit new mining work                   number=371 txs=0 uncles=0 elapsed=187.358µs
+INFO [02-10|13:52:20] Successfully sealed new block            number=371 hash=6ff4ab…480c5a
+INFO [02-10|13:52:20] 🔗 block reached canonical chain          number=366 hash=7188dc…8f8ddf
+INFO [02-10|13:52:20] 🔨 mined potential block                  number=371 hash=6ff4ab…480c5a
+INFO [02-10|13:52:20] Commit new mining work                   number=372 txs=0 uncles=0 elapsed=135.523µs
+INFO [02-10|13:52:21] Successfully sealed new block            number=372 hash=32afbb…7eba65
+INFO [02-10|13:52:21] 🔗 block reached canonical chain          number=367 hash=e7efcc…b2f8af
+INFO [02-10|13:52:21] 🔨 mined potential block                  number=372 hash=32afbb…7eba65
+INFO [02-10|13:52:21] Commit new mining work                   number=373 txs=0 uncles=0 elapsed=186.893µs
+INFO [02-10|13:52:21] Successfully sealed new block            number=373 hash=354689…862895
+INFO [02-10|13:52:21] 🔗 block reached canonical chain          number=368 hash=abf86d…523c80
+INFO [02-10|13:52:21] 🔨 mined potential block                  number=373 hash=354689…862895
+INFO [02-10|13:52:21] Commit new mining work                   number=374 txs=0 uncles=0 elapsed=116.507µs
+INFO [02-10|13:52:22] Successfully sealed new block            number=374 hash=05b046…2923b7
+INFO [02-10|13:52:22] 🔗 block reached canonical chain          number=369 hash=b83908…dbf69c
+INFO [02-10|13:52:22] 🔨 mined potential block                  number=374 hash=05b046…2923b7
+INFO [02-10|13:52:22] Commit new mining work                   number=375 txs=0 uncles=0 elapsed=144.036µs
+INFO [02-10|13:52:24] Successfully sealed new block            number=375 hash=a90841…6ebec5
+INFO [02-10|13:52:24] 🔗 block reached canonical chain          number=370 hash=da1d94…068764
+INFO [02-10|13:52:24] 🔨 mined potential block                  number=375 hash=a90841…6ebec5
+INFO [02-10|13:52:24] Commit new mining work                   number=376 txs=0 uncles=0 elapsed=119.315µs
+INFO [02-10|13:52:25] Successfully sealed new block            number=376 hash=a7db69…41e96d
+INFO [02-10|13:52:25] 🔗 block reached canonical chain          number=371 hash=6ff4ab…480c5a
+INFO [02-10|13:52:25] 🔨 mined potential block                  number=376 hash=a7db69…41e96d
+INFO [02-10|13:52:25] Commit new mining work                   number=377 txs=0 uncles=0 elapsed=127.017µs
+INFO [02-10|13:52:27] Successfully sealed new block            number=377 hash=91da88…d07581
+INFO [02-10|13:52:27] 🔗 block reached canonical chain          number=372 hash=32afbb…7eba65
+INFO [02-10|13:52:27] 🔨 mined potential block                  number=377 hash=91da88…d07581
+INFO [02-10|13:52:27] Commit new mining work                   number=378 txs=0 uncles=0 elapsed=117.66µs
+INFO [02-10|13:52:27] Successfully sealed new block            number=378 hash=82c549…338da2
+INFO [02-10|13:52:27] 🔗 block reached canonical chain          number=373 hash=354689…862895
+INFO [02-10|13:52:27] 🔨 mined potential block                  number=378 hash=82c549…338da2
+INFO [02-10|13:52:27] Commit new mining work                   number=379 txs=0 uncles=0 elapsed=114.235µs
+INFO [02-10|13:52:33] Successfully sealed new block            number=379 hash=934b6a…ba396c
+INFO [02-10|13:52:33] 🔗 block reached canonical chain          number=374 hash=05b046…2923b7
+INFO [02-10|13:52:33] 🔨 mined potential block                  number=379 hash=934b6a…ba396c
+INFO [02-10|13:52:33] Commit new mining work                   number=380 txs=0 uncles=0 elapsed=236.31µs
+INFO [02-10|13:52:34] Successfully sealed new block            number=380 hash=46a2aa…fe968e
+INFO [02-10|13:52:34] 🔗 block reached canonical chain          number=375 hash=a90841…6ebec5
+INFO [02-10|13:52:34] 🔨 mined potential block                  number=380 hash=46a2aa…fe968e
+INFO [02-10|13:52:34] Commit new mining work                   number=381 txs=0 uncles=0 elapsed=227.304µs
+INFO [02-10|13:52:37] Successfully sealed new block            number=381 hash=48a50a…627ec9
+INFO [02-10|13:52:37] 🔗 block reached canonical chain          number=376 hash=a7db69…41e96d
+INFO [02-10|13:52:37] 🔨 mined potential block                  number=381 hash=48a50a…627ec9
+INFO [02-10|13:52:37] Commit new mining work                   number=382 txs=0 uncles=0 elapsed=172.78µs
+INFO [02-10|13:52:40] Successfully sealed new block            number=382 hash=5d2222…f2122a
+INFO [02-10|13:52:40] 🔗 block reached canonical chain          number=377 hash=91da88…d07581
+INFO [02-10|13:52:40] 🔨 mined potential block                  number=382 hash=5d2222…f2122a
+INFO [02-10|13:52:40] Commit new mining work                   number=383 txs=0 uncles=0 elapsed=151.185µs
+INFO [02-10|13:52:41] Successfully sealed new block            number=383 hash=5b1461…c552b6
+INFO [02-10|13:52:41] 🔗 block reached canonical chain          number=378 hash=82c549…338da2
+INFO [02-10|13:52:41] 🔨 mined potential block                  number=383 hash=5b1461…c552b6
+INFO [02-10|13:52:41] Commit new mining work                   number=384 txs=0 uncles=0 elapsed=177.843µs
+INFO [02-10|13:52:42] Successfully sealed new block            number=384 hash=83c310…7522b5
+INFO [02-10|13:52:42] 🔗 block reached canonical chain          number=379 hash=934b6a…ba396c
+INFO [02-10|13:52:42] 🔨 mined potential block                  number=384 hash=83c310…7522b5
+INFO [02-10|13:52:42] Commit new mining work                   number=385 txs=0 uncles=0 elapsed=171.517µs
+INFO [02-10|13:52:42] Successfully sealed new block            number=385 hash=c4eded…c5b4bb
+INFO [02-10|13:52:42] 🔗 block reached canonical chain          number=380 hash=46a2aa…fe968e
+INFO [02-10|13:52:42] 🔨 mined potential block                  number=385 hash=c4eded…c5b4bb
+INFO [02-10|13:52:42] Commit new mining work                   number=386 txs=0 uncles=0 elapsed=152.527µs
+INFO [02-10|13:52:44] Successfully sealed new block            number=386 hash=ce3080…8e83c2
+INFO [02-10|13:52:44] 🔗 block reached canonical chain          number=381 hash=48a50a…627ec9
+INFO [02-10|13:52:44] 🔨 mined potential block                  number=386 hash=ce3080…8e83c2
+INFO [02-10|13:52:44] Commit new mining work                   number=387 txs=0 uncles=0 elapsed=192.298µs
+INFO [02-10|13:52:46] Successfully sealed new block            number=387 hash=e94cd5…e83e5f
+INFO [02-10|13:52:46] 🔗 block reached canonical chain          number=382 hash=5d2222…f2122a
+INFO [02-10|13:52:46] 🔨 mined potential block                  number=387 hash=e94cd5…e83e5f
+INFO [02-10|13:52:46] Commit new mining work                   number=388 txs=0 uncles=0 elapsed=135.115µs
+INFO [02-10|13:52:47] Successfully sealed new block            number=388 hash=d29eb1…7e09bb
+INFO [02-10|13:52:47] 🔗 block reached canonical chain          number=383 hash=5b1461…c552b6
+INFO [02-10|13:52:47] 🔨 mined potential block                  number=388 hash=d29eb1…7e09bb
+INFO [02-10|13:52:47] Commit new mining work                   number=389 txs=0 uncles=0 elapsed=164.586µs
+INFO [02-10|13:52:47] Successfully sealed new block            number=389 hash=0c1845…be9302
+INFO [02-10|13:52:47] 🔗 block reached canonical chain          number=384 hash=83c310…7522b5
+INFO [02-10|13:52:47] 🔨 mined potential block                  number=389 hash=0c1845…be9302
+INFO [02-10|13:52:47] Commit new mining work                   number=390 txs=0 uncles=0 elapsed=134.999µs
+INFO [02-10|13:52:48] Successfully sealed new block            number=390 hash=6aa896…987d63
+INFO [02-10|13:52:48] 🔗 block reached canonical chain          number=385 hash=c4eded…c5b4bb
+INFO [02-10|13:52:48] 🔨 mined potential block                  number=390 hash=6aa896…987d63
+INFO [02-10|13:52:48] Commit new mining work                   number=391 txs=0 uncles=0 elapsed=160.509µs
+INFO [02-10|13:52:51] Successfully sealed new block            number=391 hash=8e904d…7000a4
+INFO [02-10|13:52:51] 🔗 block reached canonical chain          number=386 hash=ce3080…8e83c2
+INFO [02-10|13:52:51] 🔨 mined potential block                  number=391 hash=8e904d…7000a4
+INFO [02-10|13:52:51] Commit new mining work                   number=392 txs=0 uncles=0 elapsed=141.526µs
+INFO [02-10|13:52:52] Successfully sealed new block            number=392 hash=e4521b…ff1715
+INFO [02-10|13:52:52] 🔗 block reached canonical chain          number=387 hash=e94cd5…e83e5f
+INFO [02-10|13:52:52] 🔨 mined potential block                  number=392 hash=e4521b…ff1715
+INFO [02-10|13:52:52] Commit new mining work                   number=393 txs=0 uncles=0 elapsed=161.283µs
+INFO [02-10|13:52:52] Successfully sealed new block            number=393 hash=bef6b9…f681e0
+INFO [02-10|13:52:52] 🔗 block reached canonical chain          number=388 hash=d29eb1…7e09bb
+INFO [02-10|13:52:52] 🔨 mined potential block                  number=393 hash=bef6b9…f681e0
+INFO [02-10|13:52:52] Commit new mining work                   number=394 txs=0 uncles=0 elapsed=129.194µs
+INFO [02-10|13:52:56] Successfully sealed new block            number=394 hash=d8e209…8fa298
+INFO [02-10|13:52:56] 🔗 block reached canonical chain          number=389 hash=0c1845…be9302
+INFO [02-10|13:52:56] 🔨 mined potential block                  number=394 hash=d8e209…8fa298
+INFO [02-10|13:52:56] Commit new mining work                   number=395 txs=0 uncles=0 elapsed=155.914µs
+INFO [02-10|13:52:56] Successfully sealed new block            number=395 hash=39c311…1fc33b
+INFO [02-10|13:52:56] 🔗 block reached canonical chain          number=390 hash=6aa896…987d63
+INFO [02-10|13:52:56] 🔨 mined potential block                  number=395 hash=39c311…1fc33b
+INFO [02-10|13:52:56] Commit new mining work                   number=396 txs=0 uncles=0 elapsed=129.183µs
+INFO [02-10|13:52:57] Successfully sealed new block            number=396 hash=497f9e…d881e7
+INFO [02-10|13:52:57] 🔗 block reached canonical chain          number=391 hash=8e904d…7000a4
+INFO [02-10|13:52:57] 🔨 mined potential block                  number=396 hash=497f9e…d881e7
+INFO [02-10|13:52:57] Commit new mining work                   number=397 txs=0 uncles=0 elapsed=159.285µs
+INFO [02-10|13:52:58] Successfully sealed new block            number=397 hash=988b53…d0f2f9
+INFO [02-10|13:52:58] 🔗 block reached canonical chain          number=392 hash=e4521b…ff1715
+INFO [02-10|13:52:58] 🔨 mined potential block                  number=397 hash=988b53…d0f2f9
+INFO [02-10|13:52:58] Commit new mining work                   number=398 txs=0 uncles=0 elapsed=147.654µs
+INFO [02-10|13:52:59] Successfully sealed new block            number=398 hash=e61cc0…2500ae
+INFO [02-10|13:52:59] 🔗 block reached canonical chain          number=393 hash=bef6b9…f681e0
+INFO [02-10|13:52:59] 🔨 mined potential block                  number=398 hash=e61cc0…2500ae
+INFO [02-10|13:52:59] Commit new mining work                   number=399 txs=0 uncles=0 elapsed=123.344µs
+INFO [02-10|13:52:59] Successfully sealed new block            number=399 hash=91096c…1ebb0e
+INFO [02-10|13:52:59] 🔗 block reached canonical chain          number=394 hash=d8e209…8fa298
+INFO [02-10|13:52:59] 🔨 mined potential block                  number=399 hash=91096c…1ebb0e
+INFO [02-10|13:52:59] Mining too far in the future             wait=2s
+INFO [02-10|13:53:01] Commit new mining work                   number=400 txs=0 uncles=0 elapsed=2.005s
+INFO [02-10|13:53:02] Successfully sealed new block            number=400 hash=5e131a…819115
+INFO [02-10|13:53:02] 🔗 block reached canonical chain          number=395 hash=39c311…1fc33b
+INFO [02-10|13:53:02] 🔨 mined potential block                  number=400 hash=5e131a…819115
+INFO [02-10|13:53:02] Commit new mining work                   number=401 txs=0 uncles=0 elapsed=184.378µs
+INFO [02-10|13:53:03] Successfully sealed new block            number=401 hash=7a03b8…c75982
+INFO [02-10|13:53:03] 🔗 block reached canonical chain          number=396 hash=497f9e…d881e7
+INFO [02-10|13:53:03] 🔨 mined potential block                  number=401 hash=7a03b8…c75982
+INFO [02-10|13:53:03] Commit new mining work                   number=402 txs=0 uncles=0 elapsed=144.104µs
+INFO [02-10|13:55:11] Successfully sealed new block            number=402 hash=3f0c6e…deddc4
+INFO [02-10|13:55:11] Commit new mining work                   number=403 txs=0 uncles=0 elapsed=275.139µs
+INFO [02-10|13:55:11] 🔗 block reached canonical chain          number=397 hash=988b53…d0f2f9
+INFO [02-10|13:55:11] 🔨 mined potential block                  number=402 hash=3f0c6e…deddc4
+INFO [02-10|13:55:13] Successfully sealed new block            number=403 hash=bd69e8…f07ded
+INFO [02-10|13:55:13] 🔗 block reached canonical chain          number=398 hash=e61cc0…2500ae
+INFO [02-10|13:55:13] 🔨 mined potential block                  number=403 hash=bd69e8…f07ded
+INFO [02-10|13:55:13] Commit new mining work                   number=404 txs=0 uncles=0 elapsed=203.119µs
+INFO [02-10|15:24:13] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [02-10|15:24:13] IPC endpoint closed: /Users/HPDeskjetPrinter/Desktop/slaveFreeTrade/data/geth.ipc 
+INFO [02-10|15:24:13] Blockchain manager stopped 
+INFO [02-10|15:24:13] Stopping Ethereum protocol 
+INFO [02-10|15:24:13] Ethereum protocol stopped 
+INFO [02-10|15:24:13] Transaction pool stopped 
+INFO [02-10|15:24:13] Database closed                          database=/Users/HPDeskjetPrinter/Desktop/slaveFreeTrade/data/geth/chaindata

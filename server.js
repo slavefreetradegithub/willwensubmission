@@ -202,7 +202,7 @@ app.get('/transactions', (req, res) => {
 
 
 
-app.listen(9000, () => console.log('Example app listening on port 9000!'))
+app.listen(9000, () => console.log('Server listening on port 9000!'))
 
 function unlockAccount(){
 	// Unlock the coinbase account to make transactions out of it
