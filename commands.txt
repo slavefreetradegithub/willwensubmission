@@ -12,7 +12,7 @@ Initialize a local blockchain:
 * Default port is 30303
 * Prevents other blockchain networks to attatch to this one.
 * give a networkid so others can attach
-"geth --datadir ./data --nodiscover --networkid 1234 console 2>console.log
+"geth --datadir ./data --nodiscover --networkid 1234 --rpc --rpccorsdomain "*" --rpcapi="db,eth,net,web3,personal,web3" console 2>console.log
 
 3) Optional: Attach another terminal to the same node:
 "geth attach ipc:./data/geth.ipc"
@@ -31,3 +31,8 @@ personal.newAccount
 personal.listAccounts
 eth.blockNumber
 admin.nodeInfo
+eth.getBlock(eth.blockNumber).miner
+eth.getBalance(eth.getBlock(eth.blockNumber).miner)
+personal.unlockAccount(eth.accounts[0])
+*if having trouble getting miner.start()
+	- miner.setEtherbase(eth.accounts[0])

@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/willwen/SlaveFreeTrade_Submission#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "abi-decoder": "^1.0.9",
+    "express": "^4.16.2",
+    "web3": "^0.20.3"
   }
 }
