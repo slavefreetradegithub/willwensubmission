@@ -14,3 +14,4 @@ INFO [02-09|22:06:02] Starting P2P networking
 INFO [02-09|22:06:04] UDP listener up                          self=enode://873bf93cfb7f7ca2c479bc685f4d6ae525a322b3f10e140934058681f187e5615ff5c9fe2347af592e720d7b8752c9ec14b6224b12dc11c1b583aaa3a2b1f7c0@[::]:30303
 INFO [02-09|22:06:04] RLPx listener up                         self=enode://873bf93cfb7f7ca2c479bc685f4d6ae525a322b3f10e140934058681f187e5615ff5c9fe2347af592e720d7b8752c9ec14b6224b12dc11c1b583aaa3a2b1f7c0@[::]:30303
 INFO [02-09|22:06:04] IPC endpoint opened: /Users/HPDeskjetPrinter/Desktop/slaveFreeTrade/data/geth.ipc 
+INFO [02-09|23:06:02] Regenerated local transaction journal    transactions=0 accounts=0

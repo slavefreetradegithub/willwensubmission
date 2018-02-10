@@ -1,0 +1,23 @@
+{
+  "name": "slavefreetrade",
+  "version": "1.0.0",
+  "description": "https://blackrockdigital.github.io/startbootstrap-grayscale/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willwen/SlaveFreeTrade_Submission.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willwen/SlaveFreeTrade_Submission/issues"
+  },
+  "homepage": "https://github.com/willwen/SlaveFreeTrade_Submission#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
