@@ -3,10 +3,124 @@ var path = require("path")
 //npm install express
 var app = express();
 //npm install body-parser
-var bodyParser = require("body-parser"); //handles form submission data from post
-//(or just npm install in correct directory and install everything needed automatically)
+const abiDecoder = require('abi-decoder'); // NodeJS
 
-//
+var bodyParser = require("body-parser"); //handles form submission data from post
+var abi = [
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "test",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "minter",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "balances",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "from",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "Sent",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "receiver",
+				"type": "address"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "mint",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "receiver",
+				"type": "address"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "send",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]
+abiDecoder.addABI(abi);
+
 
 //Server anything in the webpage directory
 app.use(express.static(path.join(__dirname, 'webpage/')))
@@ -40,9 +154,9 @@ app.post("/data", (req, res) => { //access body of post request
 
 //do what u want w data here, before res.end
 //print on console to confirm
-    console.log(isPaidTooLow);
-    console.log(isDangerInEmergency);
-    console.log(district);
+    // console.log(isPaidTooLow);
+    // console.log(isDangerInEmergency);
+    // console.log(district);
 //    console.log(isDangerForSpeakingOut);
 //    console.log(isDifferentJobDescription);
 //    console.log(isIdentityRansomed);
@@ -53,9 +167,9 @@ app.post("/data", (req, res) => { //access body of post request
 //    console.log(isDiscriminated);
 
 	unlockAccount();
-	var _isPaidTooLow = true/* var of type bool here */ ;
-	var _isDangerInEmergency = false/* var of type bool here */ ;
-	var _district = "test"/* var of type string here */ ;
+	var _isPaidTooLow = (isPaidTooLow == 'true');
+	var _isDangerInEmergency =  (isDangerInEmergency == 'true')/* var of type bool here */ ;
+	var _district = district/* var of type string here */ ;
 	var formContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"getIsDangerInEmergency","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"formCreator","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getIsPaidTooLow","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getDistrict","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"test","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_isPaidTooLow","type":"bool"},{"name":"_isDangerInEmergency","type":"bool"},{"name":"_district","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
 	var form = formContract.new(
 	   _isPaidTooLow,
@@ -68,18 +182,20 @@ app.post("/data", (req, res) => { //access body of post request
 	   }, function (e, contract){
 	    console.log(e, contract);
 	    if (typeof contract.address !== 'undefined') {
+
 	         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
 	         console.log(contract.getDistrict());
+	         res.end("data!") //ends ur processing
+
 	    }
 	 })
 
-    res.end("data!") //ends ur processing
 
 });
 
 app.get('/transactions', (req, res) => {
 	unlockAccount();
-    var transactions = getTransactionsByAccount(accountNumber, 0, 100)
+    var transactions = getTransactionsByAccount(accountNumber, 0, 200)
     res.send(transactions)
 
 })
@@ -116,26 +232,52 @@ function getTransactionsByAccount(myaccount, startBlockNumber, endBlockNumber) {
     console.log("Searching for transactions to/from account \"" + myaccount + "\" within blocks " + startBlockNumber + " and " + endBlockNumber);
 
     for (var i = startBlockNumber; i <= endBlockNumber; i++) {
-        if (i % 1000 == 0) {
+        if (i % 50 == 0) {
             console.log("Searching block " + i);
         }
         var block = web3.eth.getBlock(i, true);
         if (block != null && block.transactions != null) {
             block.transactions.forEach(function(e) {
                 if (myaccount == "*" || myaccount == e.from || myaccount == e.to) {
-                    transactions.push(
-                    	"  tx hash          : " + e.hash + "\n" +
-                        "   nonce           : " + e.nonce + "\n" +
-                        "   blockHash       : " + e.blockHash + "\n" +
-                        "   blockNumber     : " + e.blockNumber + "\n" +
-                        "   transactionIndex: " + e.transactionIndex + "\n" +
-                        "   from            : " + e.from + "\n" +
-                        "   to              : " + e.to + "\n" +
-                        "   value           : " + e.value + "\n" +
-                        "   time            : " + block.timestamp + " " + new Date(block.timestamp * 1000).toGMTString() + "\n" +
-                        "   gasPrice        : " + e.gasPrice + "\n" +
-                        "   gas             : " + e.gas + "\n" +
-                        "   input           : " + web3.toAscii(e.input));
+                	// transactions.push(abiDecoder.decodeMethod(e.input));
+                    transactions.push({
+                    	"tx hash"          :  e.hash, 
+                        nonce           :  e.nonce,
+                        blockHash       :  e.blockHash, 
+                        blockNumber     :  e.blockNumber, 
+                        transactionIndex:  e.transactionIndex,
+                        from            :  e.from,
+                        to              :  e.to,
+                        value           :  e.value,
+                        time            :  block.timestamp + " " + new Date(block.timestamp * 1000).toGMTString(),
+                        gasPrice        : e.gasPrice, 
+                        gas             : e.gas, 
+                        input           : web3.toAscii(e.input)});
+                    console.log("  tx hash          : " + e.hash + "\n"
+			            + "   nonce           : " + e.nonce + "\n"
+			            + "   blockHash       : " + e.blockHash + "\n"
+			            + "   blockNumber     : " + e.blockNumber + "\n"
+			            + "   transactionIndex: " + e.transactionIndex + "\n"
+			            + "   from            : " + e.from + "\n" 
+			            + "   to              : " + e.to + "\n"
+			            + "   value           : " + e.value + "\n"
+			            + "   time            : " + block.timestamp + " " + new Date(block.timestamp * 1000).toGMTString() + "\n"
+			            + "   gasPrice        : " + e.gasPrice + "\n"
+			            + "   gas             : " + e.gas + "\n"
+			            + "   input           : " + e.input);
+                    // transactions.push(
+                    // 	"  tx hash          : " + e.hash + "\n" +
+                    //     "   nonce           : " + e.nonce + "\n" +
+                    //     "   blockHash       : " + e.blockHash + "\n" +
+                    //     "   blockNumber     : " + e.blockNumber + "\n" +
+                    //     "   transactionIndex: " + e.transactionIndex + "\n" +
+                    //     "   from            : " + e.from + "\n" +
+                    //     "   to              : " + e.to + "\n" +
+                    //     "   value           : " + e.value + "\n" +
+                    //     "   time            : " + block.timestamp + " " + new Date(block.timestamp * 1000).toGMTString() + "\n" +
+                    //     "   gasPrice        : " + e.gasPrice + "\n" +
+                    //     "   gas             : " + e.gas + "\n" +
+                    //     "   input           : " + web3.toAscii(e.input));
                 }
             })
         }
@@ -143,120 +285,29 @@ function getTransactionsByAccount(myaccount, startBlockNumber, endBlockNumber) {
     return transactions;
 }
 
+function syntaxHighlight(json) {
+    if (typeof json != 'string') {
+         json = JSON.stringify(json, undefined, 2);
+    }
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'key';
+            } else {
+                cls = 'string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'boolean';
+        } else if (/null/.test(match)) {
+            cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+    });
+}
 // TEST COIN CONTRACT 
 // //address at smart contract:
 // var firstContractAddress="0x1a619067cb7bf7b76f3932fb9cdc17fe26a610f2"
 // //for smart contract
-// var abi = [
-// 	{
-// 		"constant": true,
-// 		"inputs": [],
-// 		"name": "test",
-// 		"outputs": [
-// 			{
-// 				"name": "",
-// 				"type": "string"
-// 			}
-// 		],
-// 		"payable": false,
-// 		"stateMutability": "view",
-// 		"type": "function"
-// 	},
-// 	{
-// 		"constant": true,
-// 		"inputs": [],
-// 		"name": "minter",
-// 		"outputs": [
-// 			{
-// 				"name": "",
-// 				"type": "address"
-// 			}
-// 		],
-// 		"payable": false,
-// 		"stateMutability": "view",
-// 		"type": "function"
-// 	},
-// 	{
-// 		"constant": true,
-// 		"inputs": [
-// 			{
-// 				"name": "",
-// 				"type": "address"
-// 			}
-// 		],
-// 		"name": "balances",
-// 		"outputs": [
-// 			{
-// 				"name": "",
-// 				"type": "uint256"
-// 			}
-// 		],
-// 		"payable": false,
-// 		"stateMutability": "view",
-// 		"type": "function"
-// 	},
-// 	{
-// 		"anonymous": false,
-// 		"inputs": [
-// 			{
-// 				"indexed": false,
-// 				"name": "from",
-// 				"type": "address"
-// 			},
-// 			{
-// 				"indexed": false,
-// 				"name": "to",
-// 				"type": "address"
-// 			},
-// 			{
-// 				"indexed": false,
-// 				"name": "amount",
-// 				"type": "uint256"
-// 			}
-// 		],
-// 		"name": "Sent",
-// 		"type": "event"
-// 	},
-// 	{
-// 		"constant": false,
-// 		"inputs": [
-// 			{
-// 				"name": "receiver",
-// 				"type": "address"
-// 			},
-// 			{
-// 				"name": "amount",
-// 				"type": "uint256"
-// 			}
-// 		],
-// 		"name": "mint",
-// 		"outputs": [],
-// 		"payable": false,
-// 		"stateMutability": "nonpayable",
-// 		"type": "function"
-// 	},
-// 	{
-// 		"constant": false,
-// 		"inputs": [
-// 			{
-// 				"name": "receiver",
-// 				"type": "address"
-// 			},
-// 			{
-// 				"name": "amount",
-// 				"type": "uint256"
-// 			}
-// 		],
-// 		"name": "send",
-// 		"outputs": [],
-// 		"payable": false,
-// 		"stateMutability": "nonpayable",
-// 		"type": "function"
-// 	},
-// 	{
-// 		"inputs": [],
-// 		"payable": false,
-// 		"stateMutability": "nonpayable",
-// 		"type": "constructor"
-// 	}
-// ]
+// 
