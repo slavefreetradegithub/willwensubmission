@@ -36,3 +36,79 @@ eth.getBalance(eth.getBlock(eth.blockNumber).miner)
 personal.unlockAccount(eth.accounts[0])
 *if having trouble getting miner.start()
 	- miner.setEtherbase(eth.accounts[0])
+-------------------------------------------------------
+------------ Savjee "Cardano - Simply Explained"
+Cardano Sept 2017 , IOTA
+Peer Reviewed Paper
+Bitcoin has scale issues
+1) Scalability
+ - transactions /second ( Ouroboros , uses proof of stake vs pow)
+ 	- POW lets everyone mine
+ 	- instead the network selects a few slot leaders to mine, creates epoch time periods. Can put more slots in Epoch, and multiple Epoch in parallel
+ - Network Bandwith
+ 	- blockchain is in a p2p network
+ 		- Use Recursive Internetwork Architecture , have split LANs
+ - Storage
+ 	- store everything that has ever happened
+ 	- implement pruning, compression, partitioning
+ 		- not a priority
+ 2) Interperability
+ 	- many cryptocurrencies
+ 		- dont talk to eachother
+ 		- want to be a blockchain that understands blockchains
+ 	- Banks dont trust
+ 		- want to attach metadata like from who , to who, if they want to
+ 3) Sustainability
+ 	- make an ICO (initial coin offering), but eventualyl goes out
+ 	- Treasury is a smart contract that takes a percentage of every transactions, takes the most popular proposal
+-------
+Iota Tangle
+DAG Directed Acyclic Graph
+each node is a site, sender receiver, amount of coins
+
+Add new transactions to two tips of the tangle.
+Every site added, two are confirmed
+confirmation is done through weight. (POW)
+Cumulative Weight is sum of all that point into it.
+more cum weight are more trustworthy
+you dont need full 15 gb of blockchain. you just need some of the tangle. 
+no miners are used
+more transactions, more speed
+	
+-------------------------------------------------------------------
+function getTransactionsByAccount(myaccount, startBlockNumber, endBlockNumber) {
+  if (endBlockNumber == null) {
+    endBlockNumber = eth.blockNumber;
+    console.log("Using endBlockNumber: " + endBlockNumber);
+  }
+  if (startBlockNumber == null) {
+    startBlockNumber = endBlockNumber - 1000;
+    console.log("Using startBlockNumber: " + startBlockNumber);
+  }
+  console.log("Searching for transactions to/from account \"" + myaccount + "\" within blocks "  + startBlockNumber + " and " + endBlockNumber);
+
+  for (var i = startBlockNumber; i <= endBlockNumber; i++) {
+    if (i % 1000 == 0) {
+      console.log("Searching block " + i);
+    }
+    var block = eth.getBlock(i, true);
+    if (block != null && block.transactions != null) {
+      block.transactions.forEach( function(e) {
+        if (myaccount == "*" || myaccount == e.from || myaccount == e.to) {
+          console.log("  tx hash          : " + e.hash + "\n"
+            + "   nonce           : " + e.nonce + "\n"
+            + "   blockHash       : " + e.blockHash + "\n"
+            + "   blockNumber     : " + e.blockNumber + "\n"
+            + "   transactionIndex: " + e.transactionIndex + "\n"
+            + "   from            : " + e.from + "\n" 
+            + "   to              : " + e.to + "\n"
+            + "   value           : " + e.value + "\n"
+            + "   time            : " + block.timestamp + " " + new Date(block.timestamp * 1000).toGMTString() + "\n"
+            + "   gasPrice        : " + e.gasPrice + "\n"
+            + "   gas             : " + e.gas + "\n"
+            + "   input           : " + e.input);
+        }
+      })
+    }
+  }
+}
